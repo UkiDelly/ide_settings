@@ -44,6 +44,10 @@ enabled:
     uuid: 54c1b542-c59b-4691-8fa4-f964ed1b3268
   - id: cschlosser.doxdocgen
     uuid: da7e26d5-d57c-4742-ab47-d77fb189e195
+  - id: cweijan.dbclient-jdbc
+    uuid: 1fe0d785-8db6-44ef-8113-cb0d98a88473
+  - id: cweijan.vscode-database-client2
+    uuid: 6ba92c55-a4a0-43f8-8aeb-cc3a03558814
   - id: cweijan.vscode-redis-client
     uuid: 6c8a94fa-972f-4089-b688-78f8e2875023
   - id: Dart-Code.dart-code
@@ -218,6 +222,8 @@ enabled:
     uuid: 2d7381e3-ca4b-430c-a6cf-0d8ee0643f64
   - id: UkiDelly.Ukidelly
     uuid: 2680e2c1-8bd6-47bc-9f6c-63bf4671b724
+  - id: uniquevision.vscode-plpgsql-lsp
+    uuid: e0720136-41d0-4e0f-90c4-f3b9b06f546d
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: VisualStudioExptTeam.intellicode-api-usage-examples

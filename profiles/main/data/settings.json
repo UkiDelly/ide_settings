@@ -1276,5 +1276,13 @@
         "vscode",
         "vscode-insiders",
         "docker-desktop"
+    ],
+    "plpgsqlLanguageServer.definitionFiles": [
+        "**/*.psql",
+        "**/*.pgsql",
+        "**/*.sql"
+    ],
+    "plpgsqlLanguageServer.keywordQueryParameterPattern": [
+        "\":{keyword}\""
     ]
 }
