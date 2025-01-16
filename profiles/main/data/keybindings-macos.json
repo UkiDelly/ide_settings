@@ -1,0 +1,45 @@
+// 키 바인딩을 이 파일에 넣어서 기본값 재정의auto[]
+[
+  {
+    "key": "ctrl+alt+cmd+c",
+    "command": "codesnap.start"
+  },
+  {
+    "key": "shift+cmd+enter",
+    "command": "workbench.action.openQuickChat.copilot"
+  },
+  {
+    "key": "alt+cmd+j",
+    "command": "-liveshare.join",
+    "when": "liveshare:state != 'Joined' && liveshare:state != 'Shared'"
+  },
+  {
+    "key": "alt+cmd+l",
+    "command": "-rest-client.rerun-last-request",
+    "when": "editorTextFocus && editorLangId == 'http'"
+  },
+  {
+    "key": "alt+cmd+l",
+    "command": "-rest-client.rerun-last-request",
+    "when": "editorTextFocus && editorLangId == 'plaintext'"
+  },
+  {
+    "key": "alt+cmd+l",
+    "command": "-rest-client.rerun-last-request",
+    "when": "httpResponsePreviewFocus"
+  },
+  {
+    "key": "alt+cmd+;",
+    "command": "toggleSearchEditorContextLines",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "alt+cmd+l",
+    "command": "-toggleSearchEditorContextLines",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "alt+cmd+l",
+    "command": "-composer.showComposerHistory"
+  }
+]
