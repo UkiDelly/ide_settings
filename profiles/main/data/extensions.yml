@@ -18,8 +18,6 @@ enabled:
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
   - id: alefragnani.project-manager
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
-  - id: anysphere.pyright
-    uuid: d990d7f1-60b6-4234-91a7-d146a42bb230
   - id: arcanis.vscode-zipfs
     uuid: b14d47f6-5230-4a65-9366-82edc70d5dfd
   - id: Arjun.swagger-viewer
@@ -42,14 +40,10 @@ enabled:
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
   - id: chunsen.bracket-select
     uuid: ef2858dd-afcb-4e98-bc1e-1a18b18f1018
-  - id: Codeium.windsurfPyright
-    uuid: 1adb9c26-188a-4fb6-840e-b1e951ecff7c
   - id: crystal-spider.jsdoc-generator
     uuid: 54c1b542-c59b-4691-8fa4-f964ed1b3268
   - id: cschlosser.doxdocgen
     uuid: da7e26d5-d57c-4742-ab47-d77fb189e195
-  - id: cweijan.dbclient-jdbc
-    uuid: 1fe0d785-8db6-44ef-8113-cb0d98a88473
   - id: cweijan.vscode-redis-client
     uuid: 6c8a94fa-972f-4089-b688-78f8e2875023
   - id: Dart-Code.dart-code
@@ -70,8 +64,6 @@ enabled:
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
-  - id: evan-buss.font-switcher
-    uuid: d675f82f-f7bd-40a7-a99a-2fa418b8803b
   - id: evondev.indent-rainbow-palettes
     uuid: 7427174f-f9d6-4080-bfd4-f8f9a9f0ac05
   - id: fabiospampinato.vscode-highlight
@@ -98,8 +90,6 @@ enabled:
     uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
   - id: helgardrichard.helium-icon-theme
     uuid: 235f4502-e288-45b4-a36c-3c0825d81e1b
-  - id: Heron.firefox-devtools-theme
-    uuid: e2fefca0-b32c-431f-bb7d-8adf78b5af20
   - id: hoovercj.vscode-power-mode
     uuid: a27ff63d-ff11-478d-b1ab-19aa1ef19882
   - id: humao.rest-client
@@ -126,8 +116,6 @@ enabled:
     uuid: eedfd044-d5ac-4389-973d-3ac1fdb98ad5
   - id: linbudu.pnpm-vscode-helper
     uuid: d0f7550d-fdbb-4aee-bf0e-2a780430e161
-  - id: mathcale.theme-dracula-refined
-    uuid: 566a626b-bfb5-45ca-bc03-72e33709a648
   - id: me-dutour-mathieu.vscode-github-actions
     uuid: 8476972c-078a-45ba-8756-b8ce15669cb9
   - id: mechatroner.rainbow-csv
@@ -154,8 +142,16 @@ enabled:
     uuid: 8dc47276-5882-4c5f-903d-7eef7b9d1584
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: ms-python.vscode-pylance
+    uuid: 364d2426-116a-433a-a5d8-a5098dc3afbd
+  - id: ms-vscode-remote.remote-containers
+    uuid: 93ce222b-5f6f-49b7-9ab1-a0463c6238df
+  - id: ms-vscode-remote.remote-ssh
+    uuid: 607fd052-be03-4363-b657-2bd62b83d28a
   - id: ms-vscode-remote.remote-ssh-edit
     uuid: bfeaf631-bcff-4908-93ed-fda4ef9a0c5c
+  - id: ms-vscode-remote.remote-wsl
+    uuid: f0c5397b-d357-4197-99f0-cb4202f22818
   - id: ms-vscode-remote.vscode-remote-extensionpack
     uuid: 23d72dfc-8dd1-4e30-926e-8783b4378f13
   - id: ms-vscode.live-server
@@ -166,6 +162,14 @@ enabled:
     uuid: 105c0b3c-07a9-4156-a4fc-4141040eb07e
   - id: ms-vscode.vscode-typescript-next
     uuid: 15305aca-2588-4ca0-8147-ab2c64730b82
+  - id: ms-vsliveshare.vsliveshare
+    uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
+  - id: mtxr.sqltools
+    uuid: 6a2bbab0-d8f0-43fa-9b26-e6a3b7892a0b
+  - id: mtxr.sqltools-driver-pg
+    uuid: ff850146-c38e-4afe-8a34-705074ae16e2
+  - id: mtxr.sqltools-driver-sqlite
+    uuid: 5862e2aa-ace9-476d-8b10-3b72fa494604
   - id: Nash.awesome-flutter-snippets
     uuid: b89a385b-a059-47d8-956f-cd87efc742ea
   - id: naumovs.color-highlight
@@ -200,6 +204,8 @@ enabled:
     uuid: 67aa57c0-1251-435c-8718-c4f5bbd73390
   - id: seatonjiang.gitmoji-vscode
     uuid: d7b0c43a-5aaa-4181-9196-293551f7b37a
+  - id: Shan.code-settings-sync
+    uuid: e337c67b-55c2-4fef-8949-eb260e7fb7fd
   - id: SimonSiefke.svg-preview
     uuid: 51cd7dfb-14fa-4fcc-aa42-16add9281456
   - id: studio-cloud.asset-syncronation
@@ -216,6 +222,8 @@ enabled:
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: VisualStudioExptTeam.intellicode-api-usage-examples
     uuid: 9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3
+  - id: VisualStudioExptTeam.vscodeintellicode
+    uuid: 876e8f93-74d0-4f4f-91b7-34a09f19f444
   - id: weekit.flutter-assets-gen2
     uuid: 61474460-d9ff-4187-b378-cf7e56d46df2
   - id: whizkydee.material-palenight-theme
