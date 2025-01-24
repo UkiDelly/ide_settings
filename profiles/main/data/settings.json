@@ -1302,5 +1302,10 @@
     "python.analysis.completeFunctionParens": true,
     "editor.defaultFormatter": "ms-python.black-formatter",
     "notebook.defaultFormatter": "ms-python.black-formatter",
-    "cursor.terminal.usePreviewBox": true
+    "cursor.terminal.usePreviewBox": true,
+    "syncSettings.crons": {
+        "review": "0 * * * *", 
+        "download": "30 9 * * *", 
+        "upload": "0 18 * * *" 
+    }
 }
