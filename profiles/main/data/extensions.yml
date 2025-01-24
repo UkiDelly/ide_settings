@@ -44,12 +44,8 @@ enabled:
     uuid: 54c1b542-c59b-4691-8fa4-f964ed1b3268
   - id: cschlosser.doxdocgen
     uuid: da7e26d5-d57c-4742-ab47-d77fb189e195
-  - id: cweijan.dbclient-jdbc
-    uuid: 1fe0d785-8db6-44ef-8113-cb0d98a88473
   - id: cweijan.vscode-database-client2
     uuid: 6ba92c55-a4a0-43f8-8aeb-cc3a03558814
-  - id: cweijan.vscode-redis-client
-    uuid: 6c8a94fa-972f-4089-b688-78f8e2875023
   - id: Dart-Code.dart-code
     uuid: f57f68ea-9ee8-42b5-9a97-041d3e4278c4
   - id: Dart-Code.flutter
@@ -76,8 +72,6 @@ enabled:
     uuid: d3836729-9cc1-42c1-b2af-d50071f57d29
   - id: formulahendry.auto-rename-tag
     uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
-  - id: gamunu.vscode-yarn
-    uuid: 020e14e4-3f0d-41d4-901d-4d28c9775544
   - id: github.vscode-github-actions
     uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
   - id: GitHub.vscode-pull-request-github
@@ -168,12 +162,6 @@ enabled:
     uuid: 15305aca-2588-4ca0-8147-ab2c64730b82
   - id: ms-vsliveshare.vsliveshare
     uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
-  - id: mtxr.sqltools
-    uuid: 6a2bbab0-d8f0-43fa-9b26-e6a3b7892a0b
-  - id: mtxr.sqltools-driver-pg
-    uuid: ff850146-c38e-4afe-8a34-705074ae16e2
-  - id: mtxr.sqltools-driver-sqlite
-    uuid: 5862e2aa-ace9-476d-8b10-3b72fa494604
   - id: Nash.awesome-flutter-snippets
     uuid: b89a385b-a059-47d8-956f-cd87efc742ea
   - id: naumovs.color-highlight
@@ -218,6 +206,8 @@ enabled:
     uuid: c5463f77-75d9-4a25-8cc4-d8541a461285
   - id: tal7aouy.icons
     uuid: dcd805cf-7bf1-458e-8739-26a6077c784f
+  - id: tamasfe.even-better-toml
+    uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
   - id: tinaciousdesign.theme-tinaciousdesign
     uuid: 2d7381e3-ca4b-430c-a6cf-0d8ee0643f64
   - id: UkiDelly.Ukidelly
@@ -234,6 +224,8 @@ enabled:
     uuid: 61474460-d9ff-4187-b378-cf7e56d46df2
   - id: whizkydee.material-palenight-theme
     uuid: 7f147721-ec06-4043-9e37-c9ffbecbccd1
+  - id: wholroyd.jinja
+    uuid: c941a679-d500-46a8-b2a9-208063125901
   - id: william-voyek.vscode-nginx
     uuid: 414b2873-c80e-4dc6-9031-bd185cfb3944
   - id: wix.vscode-import-cost
@@ -246,3 +238,5 @@ enabled:
     uuid: b45c1a9d-029a-4649-94ef-f74559881c8a
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
+  - id: zxh404.vscode-proto3
+    uuid: 1d3d1fb2-0d8f-47ed-bfce-990b8ddfc9d8

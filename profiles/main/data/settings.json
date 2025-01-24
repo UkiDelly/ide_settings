@@ -108,7 +108,7 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'Ligalex Mono','Iosevka Term Medium Extended', 'D2Coding ligature','CaskaydiaCove Nerd Font Mono','Jetbrains Mono','FiraCode Nerd Font Mono', 'SF Mono', 'Rec Mono Casual', 'Cascadia Code', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'CaskaydiaCove Nerd Font Mono','D2Coding ligature','Ligalex Mono','Iosevka Term Medium Extended', 'Jetbrains Mono','FiraCode Nerd Font Mono', 'SF Mono', 'Rec Mono Casual', 'Cascadia Code', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 15,
     "editor.fontWeight": "500",
@@ -817,6 +817,7 @@
                 {
                     "scope": [
                         "support.type.primitive.ts",
+                        "storage.type.proto"
                     ],
                     "settings": {
                         "foreground": "#78DCE8",
@@ -838,12 +839,22 @@
                     "scope": [
                         "entity.name.function.js",
                         "meta.function-call.js",
-                        "meta.method.declaration.js"
+                        "meta.method.declaration.js",
+                        "entity.name.function"
                     ],
                     "settings": {
                         "foreground": "#81C784",
                     }
                 },
+                {
+                    "scope": [
+                        "entity.name.class.message.proto",
+                        "entity.name.class.proto",
+                    ],
+                    "settings": {
+                        "foreground": "#78DCE8"
+                    }
+                }
             ]
         }
     },
@@ -934,7 +945,6 @@
         "source.convertImportFormat"
     ],
     "python.analysis.indexing": true,
-    "python.analysis.inlayHints.callArgumentNames": "partial",
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.inlayHints.pytestParameters": true,
     "python.analysis.inlayHints.variableTypes": true,
@@ -972,7 +982,7 @@
             "name": "fastapi"
         }
     ],
-    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.typeCheckingMode": "standard",
     "python.terminal.activateEnvInCurrentTerminal": true,
     "pythonIndent.keepHangingBracketOnLine": true,
     "pythonIndent.useTabOnHangingIndent": true,
@@ -1037,7 +1047,7 @@
     },
     "black-formatter.showNotifications": "onError",
     "black-formatter.importStrategy": "fromEnvironment",
-    "python.languageServer": "Pylance",
+    "python.languageServer": "Default",
     "emmet.includeLanguages": {
         "django-html": "html"
     },
@@ -1260,7 +1270,7 @@
     "sync.quietSync": true,
     "sync.autoDownload": true,
     "javascript.experimental.updateImportsOnPaste": true,
-    "javascript.format.semicolons": "insert",
+    "javascript.format.semicolons": "remove",
     "javascript.preferences.importModuleSpecifier": "relative",
     "javascript.preferences.importModuleSpecifierEnding": "js",
     "javascript.preferences.quoteStyle": "single",
@@ -1284,5 +1294,13 @@
     ],
     "plpgsqlLanguageServer.keywordQueryParameterPattern": [
         "\":{keyword}\""
-    ]
+    ],
+    "prettier.semi": false,
+    "typescript.format.semicolons": "remove",
+    "helium-icon-theme.folders.theme": "specific",
+    "python.analysis.inlayHints.callArgumentNames": "partial",
+    "python.analysis.completeFunctionParens": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "notebook.defaultFormatter": "ms-python.black-formatter",
+    "cursor.terminal.usePreviewBox": true
 }
