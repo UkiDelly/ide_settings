@@ -254,7 +254,7 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.aichat","them
   Finder","isBuiltin":true,"views":[{"when":"true"}]}]'
 workbench.auxiliaryBar.size: "420"
 workbench.contrib.onboarding.browser.gettingStarted.contribution.ts.firsttime: "false"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["json",true],["ssh_config",true],["nginx",true],["prisma",true],["plaintext",true],["javascript",true],["pip-requirements",true],["properties",true],["python",true],["yaml",true],["jsonc",true],["typescript",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["json",true],["ssh_config",true],["nginx",true],["prisma",true],["javascript",true],["pip-requirements",true],["properties",true],["python",true],["yaml",true],["jsonc",true],["plaintext",true],["typescript",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"notepad","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"dartDependencyTree","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"build_runner_view","isHidden":false},{"id":"liveshare.session.explorer","isHidden":false},{"id":"sqlite3-editor.tableList","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"workspaceEnvironments","isHidden":false},{"id":"pythonEnvironments","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.aipaneaaaiBugFinder.hidden: '[{"id":"workbench.panel.aipane.viewaaaiBugFinder","isHidden":false}]'
