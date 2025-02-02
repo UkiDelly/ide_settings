@@ -3,12 +3,12 @@ alefragnani.project-manager: '{"project-manager.version":"12.8.0","recent":"[\"f
 cweijan.vscode-database-client2: "{\"USER_EMAIL\":\"daehyeon1999@naver.com\",\"\
   user\":{\"token\":\"378705b30d3d673d64205af21f7cfcc7c4ae2\",\"email\":\"daehy\
   eon1999@naver.com\",\"expireTime\":\"1737600141000\",\"nickName\":\"Delly\",\
-  \"timestamp\":1738457217286,\"members\":1,\"sign\":\"mqcJJxcUhNwc+pl74NZl8H7t\
-  i2GI6QeecHyADn9lEgDjzPoNi3S+V7qsH2GZ7lpPWjzT2ZmRdgRZKpGOS6L/6378quxGWrv9x3o12\
-  XgymM8fFp6POjv+jmNDAaQ8HuLUS6ItDhFOXdRNHyoEwcBXTsTKn/WqVpR8ErJqOMRLDmRdMNOR4Q\
-  NwN8EetczKYgkLLB1O0EpStejvKXwcGQMo09grfYgblm1LuOFT+wI+jhocPAkQgZPalyf7FKv0vJ3\
-  bJiUabOn9oxfoYuJjRiTr8HnVTZdf2tVCdbLrHmdUj4trS+yDJFUgUeH/ZBStK3fe0O12gwssRaXu\
-  Cb410r5SAQ==\",\"type\":\"personal\",\"expireDate\":\"2025-01-23\"},\"version\
+  \"timestamp\":1738458047688,\"members\":1,\"sign\":\"oqu+mq2kjKosPjfGuPDh3aYw\
+  7jnlzxIXTxmEa27s81TMiJzYXLXdOAotn9zHfLvyAg6FO1H+9MkSysIBMLUveH1saBomXWao9dawQ\
+  0T3io4dBD52lVebdfIImgFCEcyXw/lkhvJpo/A1pF/1gId38UrnJEuSpzLFiHKI1/eT+1GKff22o+\
+  txxV0UR07d0+xbnR4w1BTh3++DIzksrb6mIICRWwQP3vs4p4vxS4IX4WoUXerOxvS4tSjxagI5XIJ\
+  9MEhuHsVnAEJuRf/Yg54ln3QcQ9CDsE7CQHtKLVXD07Hgnno1Ep2VdHVVI52wexDrlUvWGGoRRubm\
+  jAFFu8ME6A==\",\"type\":\"personal\",\"expireDate\":\"2025-01-23\"},\"version\
   _map\":{\"1737002766351\":\"16.3 (Debian
   16.3-1.pgdg120+1)\",\"1737007244844\":\"17.2 (Debian
   17.2-1.pgdg120+1)\",\"1737088934351\":null,\"1737088934351@@0.0.0.0@27017@str\
@@ -259,7 +259,7 @@ workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.aichat","them
   chatSetupInstalled"}]}]'
 workbench.auxiliaryBar.size: "420"
 workbench.contrib.onboarding.browser.gettingStarted.contribution.ts.firsttime: "false"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["ssh_config",true],["nginx",true],["pip-requirements",true],["python",true],["yaml",true],["jsonc",true],["properties",true],["plaintext",true],["prisma",true],["json",true],["javascript",true],["typescript",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["ssh_config",true],["nginx",true],["pip-requirements",true],["python",true],["yaml",true],["jsonc",true],["properties",true],["prisma",true],["json",true],["javascript",true],["plaintext",true],["typescript",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"notepad","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"dartDependencyTree","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"build_runner_view","isHidden":false},{"id":"liveshare.session.explorer","isHidden":false},{"id":"sqlite3-editor.tableList","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"workspaceEnvironments","isHidden":false},{"id":"pythonEnvironments","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.aipaneaaaiBugFinder.hidden: '[{"id":"workbench.panel.aipane.viewaaaiBugFinder","isHidden":false}]'
