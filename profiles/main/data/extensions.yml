@@ -18,6 +18,8 @@ enabled:
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
   - id: alefragnani.project-manager
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
+  - id: arcanis.vscode-zipfs
+    uuid: b14d47f6-5230-4a65-9366-82edc70d5dfd
   - id: Arjun.swagger-viewer
     uuid: cb9cc98b-7140-4f13-b993-1e26c4a7bd42
   - id: azemoh.one-monokai
@@ -26,6 +28,10 @@ enabled:
     uuid: 40d13ed9-34ed-423f-acc1-95d0fe3aa2fa
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
+  - id: brikev.express-jsdoc-swagger-snippets
+    uuid: e1bc406d-6bb2-4ec3-9531-4e53a19bcdf0
+  - id: carlosjs23.vscode-yarn-script
+    uuid: 05bc6192-b517-4f6c-a5a2-6897bbdb8fbc
   - id: chamboug.js-auto-backticks
     uuid: 89454707-ebf2-4d40-b9b9-c3ed09083889
   - id: christian-kohler.npm-intellisense
@@ -48,6 +54,8 @@ enabled:
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: devmuaz.flutterhookssnippets
     uuid: f39727e8-9cbc-453c-b95e-9f170d8a046f
+  - id: donjayamanne.python-environment-manager
+    uuid: 0c9f60fd-5588-42f7-9176-e80c3ae111ec
   - id: donjayamanne.python-extension-pack
     uuid: f5188937-53e0-45bb-a16d-61231003fa3b
   - id: DSKWRK.vscode-generate-getter-setter
@@ -181,13 +189,15 @@ enabled:
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: ritwickdey.LiveServer
-    uuid: 46cc5bbd-b098-4568-9b87-f91e07d26f2d
+    uuid: b63c44fd-0457-4696-99e9-dbfdf70d77de
   - id: robert-brunhage.flutter-riverpod-snippets
     uuid: b85c5930-27ab-45aa-b7e6-ba6f7ef345dc
   - id: rubiin.nestjs
     uuid: 67aa57c0-1251-435c-8718-c4f5bbd73390
   - id: seatonjiang.gitmoji-vscode
     uuid: d7b0c43a-5aaa-4181-9196-293551f7b37a
+  - id: Shan.code-settings-sync
+    uuid: e337c67b-55c2-4fef-8949-eb260e7fb7fd
   - id: SimonSiefke.svg-preview
     uuid: 51cd7dfb-14fa-4fcc-aa42-16add9281456
   - id: studio-cloud.asset-syncronation
@@ -198,6 +208,8 @@ enabled:
     uuid: dcd805cf-7bf1-458e-8739-26a6077c784f
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
+  - id: tinaciousdesign.theme-tinaciousdesign
+    uuid: 2d7381e3-ca4b-430c-a6cf-0d8ee0643f64
   - id: UkiDelly.Ukidelly
     uuid: 2680e2c1-8bd6-47bc-9f6c-63bf4671b724
   - id: uniquevision.vscode-plpgsql-lsp
@@ -212,6 +224,8 @@ enabled:
     uuid: 61474460-d9ff-4187-b378-cf7e56d46df2
   - id: whizkydee.material-palenight-theme
     uuid: 7f147721-ec06-4043-9e37-c9ffbecbccd1
+  - id: wholroyd.jinja
+    uuid: c941a679-d500-46a8-b2a9-208063125901
   - id: william-voyek.vscode-nginx
     uuid: 414b2873-c80e-4dc6-9031-bd185cfb3944
   - id: wix.vscode-import-cost

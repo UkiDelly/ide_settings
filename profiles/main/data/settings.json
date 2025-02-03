@@ -1304,9 +1304,8 @@
     "notebook.defaultFormatter": "ms-python.black-formatter",
     "cursor.terminal.usePreviewBox": true,
     "syncSettings.crons": {
-        "review": "0 * * * *",
-        "download": "30 9 * * *",
-        "upload": "0 18 * * *"
-    },
-    "autoimport.semicolon": false
+        "review": "0 * * * *", 
+        "download": "30 9 * * *", 
+        "upload": "0 18 * * *" 
+    }
 }
