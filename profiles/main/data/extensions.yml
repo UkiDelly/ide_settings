@@ -28,8 +28,6 @@ enabled:
     uuid: 40d13ed9-34ed-423f-acc1-95d0fe3aa2fa
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
-  - id: brikev.express-jsdoc-swagger-snippets
-    uuid: e1bc406d-6bb2-4ec3-9531-4e53a19bcdf0
   - id: carlosjs23.vscode-yarn-script
     uuid: 05bc6192-b517-4f6c-a5a2-6897bbdb8fbc
   - id: chamboug.js-auto-backticks
@@ -66,8 +64,6 @@ enabled:
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: evondev.indent-rainbow-palettes
     uuid: 7427174f-f9d6-4080-bfd4-f8f9a9f0ac05
-  - id: fabiospampinato.vscode-highlight
-    uuid: 5471fe3e-315b-4c05-b41e-8bb493227c2e
   - id: formulahendry.auto-close-tag
     uuid: d3836729-9cc1-42c1-b2af-d50071f57d29
   - id: formulahendry.auto-rename-tag
@@ -196,8 +192,6 @@ enabled:
     uuid: 67aa57c0-1251-435c-8718-c4f5bbd73390
   - id: seatonjiang.gitmoji-vscode
     uuid: d7b0c43a-5aaa-4181-9196-293551f7b37a
-  - id: Shan.code-settings-sync
-    uuid: e337c67b-55c2-4fef-8949-eb260e7fb7fd
   - id: SimonSiefke.svg-preview
     uuid: 51cd7dfb-14fa-4fcc-aa42-16add9281456
   - id: studio-cloud.asset-syncronation
