@@ -1304,8 +1304,10 @@
     "notebook.defaultFormatter": "ms-python.black-formatter",
     "cursor.terminal.usePreviewBox": true,
     "syncSettings.crons": {
-        "review": "0 * * * *", 
-        "download": "30 9 * * *", 
-        "upload": "0 18 * * *" 
-    }
+        "review": "0 * * * *",
+        "download": "30 9 * * *",
+        "upload": "0 18 * * *"
+    },
+    "ruff.lint.run": "onSave",
+    "ruff.importStrategy": "useBundled"
 }
