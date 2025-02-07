@@ -18,6 +18,8 @@ enabled:
     uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
   - id: alefragnani.project-manager
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
+  - id: anysphere.pyright
+    uuid: d990d7f1-60b6-4234-91a7-d146a42bb230
   - id: arcanis.vscode-zipfs
     uuid: b14d47f6-5230-4a65-9366-82edc70d5dfd
   - id: Arjun.swagger-viewer
@@ -28,10 +30,14 @@ enabled:
     uuid: 40d13ed9-34ed-423f-acc1-95d0fe3aa2fa
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
+  - id: brikev.express-jsdoc-swagger-snippets
+    uuid: e1bc406d-6bb2-4ec3-9531-4e53a19bcdf0
   - id: carlosjs23.vscode-yarn-script
     uuid: 05bc6192-b517-4f6c-a5a2-6897bbdb8fbc
   - id: chamboug.js-auto-backticks
     uuid: 89454707-ebf2-4d40-b9b9-c3ed09083889
+  - id: charliermarsh.ruff
+    uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
   - id: christian-kohler.npm-intellisense
     uuid: dff6b801-247e-40e9-82e8-8c9b1d19d1b8
   - id: christian-kohler.path-intellisense
@@ -64,6 +70,8 @@ enabled:
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: evondev.indent-rainbow-palettes
     uuid: 7427174f-f9d6-4080-bfd4-f8f9a9f0ac05
+  - id: fabiospampinato.vscode-highlight
+    uuid: 5471fe3e-315b-4c05-b41e-8bb493227c2e
   - id: formulahendry.auto-close-tag
     uuid: d3836729-9cc1-42c1-b2af-d50071f57d29
   - id: formulahendry.auto-rename-tag
@@ -132,8 +140,8 @@ enabled:
     uuid: 859e640c-c157-47da-8699-9080b81c8371
   - id: ms-python.debugpy
     uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
-  - id: ms-python.pylint
-    uuid: 8dc47276-5882-4c5f-903d-7eef7b9d1584
+  - id: ms-python.mypy-type-checker
+    uuid: 2203dd65-f4f9-40ea-a900-d0878231c22d
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-python.vscode-pylance
@@ -185,7 +193,7 @@ enabled:
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: ritwickdey.LiveServer
-    uuid: 46cc5bbd-b098-4568-9b87-f91e07d26f2d
+    uuid: b63c44fd-0457-4696-99e9-dbfdf70d77de
   - id: robert-brunhage.flutter-riverpod-snippets
     uuid: b85c5930-27ab-45aa-b7e6-ba6f7ef345dc
   - id: rubiin.nestjs
