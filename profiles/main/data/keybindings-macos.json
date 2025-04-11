@@ -14,32 +14,15 @@
     "when": "liveshare:state != 'Joined' && liveshare:state != 'Shared'"
   },
   {
-    "key": "alt+cmd+l",
-    "command": "-rest-client.rerun-last-request",
-    "when": "editorTextFocus && editorLangId == 'http'"
+    "key": "cmd+i",
+    "command": "composerMode.agent"
   },
   {
-    "key": "alt+cmd+l",
-    "command": "-rest-client.rerun-last-request",
-    "when": "editorTextFocus && editorLangId == 'plaintext'"
+    "key": "cmd+l",
+    "command": "composerMode.chat"
   },
   {
-    "key": "alt+cmd+l",
-    "command": "-rest-client.rerun-last-request",
-    "when": "httpResponsePreviewFocus"
-  },
-  {
-    "key": "alt+cmd+;",
-    "command": "toggleSearchEditorContextLines",
-    "when": "inSearchEditor"
-  },
-  {
-    "key": "alt+cmd+l",
-    "command": "-toggleSearchEditorContextLines",
-    "when": "inSearchEditor"
-  },
-  {
-    "key": "alt+cmd+l",
-    "command": "-composer.showComposerHistory"
+    "key": "cmd+j",
+    "command": "composerMode.edit"
   }
 ]

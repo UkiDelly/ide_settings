@@ -24,16 +24,17 @@
         "diffEditor.wordWrap": "inherit"
     },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.detectIndentation": false,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.detectIndentation": true,
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.fixAll": "explicit",
-            "source.organizeImports": "never"
+            "source.organizeImports": "always"
         },
         "editor.insertSpaces": true,
-        "editor.renderWhitespace": "all",
-        "editor.tabSize": 4
+        "editor.renderWhitespace": "boundary",
+        "editor.tabSize": 4,
+        "diffEditor.ignoreTrimWhitespace": false
     },
     "[go]": {
         "editor.insertSpaces": true,
@@ -108,14 +109,14 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'CaskaydiaCove Nerd Font Mono','D2Coding ligature','Ligalex Mono','Iosevka Term Medium Extended', 'Jetbrains Mono','FiraCode Nerd Font Mono', 'SF Mono', 'Rec Mono Casual', 'Cascadia Code', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Ligalex Mono','Jetbrains Mono','CaskaydiaCove Nerd Font Mono', 'D2Coding ligature',  'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Cascadia Code', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "editor.fontSize": 15,
+    "editor.fontSize": 16,
     "editor.fontWeight": "500",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairs": false,
     "editor.indentSize": "tabSize",
     "editor.inlineSuggest.enabled": true,
     "editor.language.colorizedBracketPairs": [
@@ -131,10 +132,6 @@
         [
             "[",
             "]"
-        ],
-        [
-            "<",
-            ">"
         ]
     ],
     "editor.mouseWheelZoom": true,
@@ -216,30 +213,72 @@
         "[Monokai Pro]": {
             "enabled": true,
             "rules": {
-                "type": "#78DCE8",
+                "keyword": "#ff79c6",
                 "variable": "#FEFFDB",
-                "property": "#FFC093",
-                "parameter": "#4EACAD",
-                "class": "#78DCE8",
-            }
-        },
-        "[Monospace Dark]": {
-            "enabled": true,
-            "rules": {
-                "type": "#78DCE8",
-                "module": "#D9DFE7",
-                "variable": "#D9DFE7",
-                // "property": "#FEFFDB"
                 "property": "#FFC093",
                 "parameter": "#F3C1FF",
                 "method": "#81C784",
                 "function": "#81C784",
                 "class": "#78DCE8",
                 "interface": "#89DDFF",
-                // "string": "#FDD835",
-                "string": "#CC9393",
+                "string": "#FDD835",
                 "typeParameter": "#89DDFF",
-                "enum": "#89DDFF"
+                "enum": "#89DDFF",
+                "module": "#89DDFF",
+                "namespace": "#89DDFF"
+            }
+        },
+        "[Monospace Dark]": {
+            "enabled": true,
+            "rules": {
+                "variable": "#D9DFE7",
+                "property": "#FFC093",
+                "parameter": "#F3C1FF",
+                "method": "#81C784",
+                "function": "#81C784",
+                "class": "#78DCE8",
+                "interface": "#89DDFF",
+                "string": "#FDD835",
+                "typeParameter": "#89DDFF",
+                "enum": "#89DDFF",
+                "module": "#89DDFF",
+                "namespace": "#89DDFF",
+                "type": "#78DCE8"
+            }
+        },
+        "[Xcode Classic (Dark)]": {
+            "enabled": true,
+            "rules": {
+                "variable": "#D9DFE7",
+                "property": "#FFC093",
+                "parameter": "#F3C1FF",
+                "method": "#81C784",
+                "function": "#81C784",
+                "class": "#78DCE8",
+                "interface": "#89DDFF",
+                "typeParameter": "#89DDFF",
+                "enum": "#89DDFF",
+                "module": "#89DDFF",
+                "namespace": "#89DDFF",
+                "keyword": "#ff79c6",
+                "comment": "#A3A3A3"
+            }
+        },
+        "[Cursor Dark]": {
+            "enabled": true,
+            "rules": {
+                // "parameter": "#F3C1FF",
+                "property": "#E6C587",
+                "variable": "#D6D6DD",
+                "class": "#87C3FF",
+                "parameter": "#80B1E3",
+                "function": "#81C784",
+                "method": "#81C784",
+                "method.declaration": "#81C784",
+                "function.declaration": "#81C784",
+                "interface": "#80B1E3",
+                "enum": "#80B1E3",
+                "enumMember": "#E6C587"
             }
         }
     },
@@ -468,10 +507,7 @@
             "types": "#5DD8FF",
             "keywords": "#FF74B1"
         },
-        "[Xcode Classic Dark]": {
-            "functions": "#3eff45",
-            "keywords": "#ff79c6",
-            "strings": "#FCF300",
+        "[Xcode Classic (Dark)]": {
             "textMateRules": [
                 {
                     "scope": [
@@ -501,10 +537,21 @@
                         "storage.modifier.ts",
                         "entity.name.tag.css",
                         "keyword.other.unit.px.css",
-                        "keyword.operator.logical.python"
+                        "keyword.operator.logical.python",
+                        "keyword.operator.new.ts",
+                        "keyword.control.flow.ts",
+                        "keyword.operator.assignment.compound.ts",
+                        "keyword.operator.expression.of.ts",
+                        "keyword.operator.increment.ts",
+                        "storage.modifier.async.ts",
+                        "keyword.operator.expression.instanceof.ts",
+                        "keyword.operator.logical.ts",
+                        "keyword.operator.comparison.ts",
+                        "keyword.operator.expression.import.ts",
+                        "keyword.operator.expression.typeof.ts"
                     ],
                     "settings": {
-                        "fontStyle": "italic",
+                        "fontStyle": "italic bold",
                         "foreground": "#ff79c6"
                     }
                 },
@@ -532,13 +579,6 @@
                     ],
                     "settings": {
                         "foreground": "#FFFFFF"
-                    }
-                },
-                {
-                    "scope": "string.quoted.double.json.comments",
-                    "settings": {
-                        "fontStyle": "",
-                        "foreground": "#FCF300"
                     }
                 },
                 {
@@ -576,10 +616,36 @@
                     "settings": {
                         "fontStyle": "italic bold"
                     }
+                },
+                {
+                    "scope": [
+                        "entity.name.function.ts"
+                    ],
+                    "settings": {
+                        "foreground": "#81C784",
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.object.ts"
+                    ],
+                    "settings": {
+                        "foreground": "#D9DFE7",
+                    }
+                },
+                {
+                    "scope": [
+                        "comment",
+                        "comment.line",
+                        "comment.block",
+                        "comment.block.documentation",
+                        "punctuation.definition.comment.yaml"
+                    ],
+                    "settings": {
+                        "foreground": "#A3A3A3",
+                    }
                 }
             ],
-            "types": "#5DD8FF",
-            "variables": "#FEFFDB"
         },
         "[Gruvbox Dark Hard]": {
             "textMateRules": [
@@ -808,7 +874,7 @@
                         "string.template.js",
                         "string.quoted.single.ts",
                         "string.quoted.double.ts",
-                        "string.template.ts",
+                        "string.template.ts"
                     ],
                     "settings": {
                         "foreground": "#FDD835"
@@ -817,7 +883,8 @@
                 {
                     "scope": [
                         "support.type.primitive.ts",
-                        "storage.type.proto"
+                        "constant.other.table-name.sql",
+                        "entity.name.type.instance.jsdoc"
                     ],
                     "settings": {
                         "foreground": "#78DCE8",
@@ -828,7 +895,7 @@
                     "scope": [
                         "support.type.builtin.ts",
                         "constant.language.null.ts",
-                        "constant.language.null.js"
+                        "support.type.object.module.js"
                     ],
                     "settings": {
                         "foreground": "#FD8DA3",
@@ -837,10 +904,8 @@
                 },
                 {
                     "scope": [
-                        "entity.name.function.js",
-                        "meta.function-call.js",
-                        "meta.method.declaration.js",
-                        "entity.name.function"
+                        "meta.function-call.python",
+                        "entity.name.function.js"
                     ],
                     "settings": {
                         "foreground": "#81C784",
@@ -848,18 +913,66 @@
                 },
                 {
                     "scope": [
-                        "entity.name.class.message.proto",
-                        "entity.name.class.proto",
+                        "constant.other.database-name.sql"
                     ],
                     "settings": {
-                        "foreground": "#78DCE8"
+                        "foreground": "#D9DFE7"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.property.js"
+                    ],
+                    "settings": {
+                        "foreground": "#FFC093",
+                    }
+                }
+                // {
+                //     "scope":[""],
+                //     "settings": {
+                //         "foreground": "#D9DFE7",
+                //         "fontStyle": "italic"
+                //     }
+                // }
+            ]
+        },
+        "[Cursor Dark]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "variable.other.property.js"
+                    ],
+                    "settings": {
+                        "foreground": "#E6C587",
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.language.this.js",
+                        "variable.language.this.ts"
+                    ],
+                    "settings": {
+                        "foreground": "#A3A3A3",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.language.null.js",
+                        "constant.language.null.ts",
+                        "constant.language.boolean.true.ts",
+                        "constant.language.boolean.false.ts"
+                    ],
+                    "settings": {
+                        "foreground": "#82D2CE",
+                        "fontStyle": "italic"
                     }
                 }
             ]
         }
     },
     "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 120,
+    "editor.wordWrapColumn": 150,
     "eslint.nodeEnv": "",
     "eslint.nodePath": "",
     "eslint.workingDirectories": [
@@ -945,6 +1058,7 @@
         "source.convertImportFormat"
     ],
     "python.analysis.indexing": true,
+    "python.analysis.inlayHints.callArgumentNames": "partial",
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.inlayHints.pytestParameters": true,
     "python.analysis.inlayHints.variableTypes": true,
@@ -977,12 +1091,12 @@
             "name": "flask"
         },
         {
-            "depth": 10,
+            "depth": 20,
             "includeAllSymbols": true,
             "name": "fastapi"
         }
     ],
-    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.typeCheckingMode": "off",
     "python.terminal.activateEnvInCurrentTerminal": true,
     "pythonIndent.keepHangingBracketOnLine": true,
     "pythonIndent.useTabOnHangingIndent": true,
@@ -1038,7 +1152,9 @@
         "editorBracketPairGuide.activeForeground6": "#abb2c0",
         "editorCursor.foreground": "#00ff3f",
         "editorSuggestWidget.focusHighlightForeground": "#ff79c6",
-        "editorSuggestWidget.highlightForeground": "#ff79c6"
+        "editorSuggestWidget.highlightForeground": "#ff79c6",
+        "editor.lineHighlightBackground": "#2a2d3e",
+        "editor.lineHighlightBorder": "#9fced11f"
     },
     "workbench.startupEditor": "none",
     "workbench.tree.renderIndentGuides": "always",
@@ -1047,11 +1163,10 @@
     },
     "black-formatter.showNotifications": "onError",
     "black-formatter.importStrategy": "fromEnvironment",
-    "python.languageServer": "Default",
     "emmet.includeLanguages": {
         "django-html": "html"
     },
-    "python.defaultInterpreterPath": "",
+    "python.defaultInterpreterPath": "/Users/daehyeon/Documents/coding_files/Boot_Camp/Django_Mini_Project/blog/OrmiTechBlog/.venv",
     "gopls": {
         "ui.semanticTokens": true
     },
@@ -1061,12 +1176,10 @@
     "go.inlayHints.rangeVariableTypes": true,
     "go.lintOnSave": "workspace",
     "workbench.preferredDarkColorTheme": "Modern Dracular Black Color Theme",
-    "workbench.colorTheme": "Monospace Dark",
     "mojo.modularHomePath": "/Users/daehyeon/.modular",
     "editor.fontVariations": "",
     "workbench.sideBar.location": "right",
     "D2.previewSketch": true,
-    "git.suggestSmartCommit": false,
     "typescript.format.insertSpaceAfterTypeAssertion": true,
     "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
     "typescript.preferences.preferTypeOnlyAutoImports": true,
@@ -1081,7 +1194,9 @@
     "typescript.implementationsCodeLens.showOnInterfaceMethods": true,
     "typescript.preferences.quoteStyle": "single",
     "github.copilot.chat.localeOverride": "ko",
-    "github.copilot.advanced": {},
+    "github.copilot.advanced": {
+        "useLanguageServer": true
+    },
     "javascript.inlayHints.variableTypes.enabled": true,
     "eslint.codeActionsOnSave.rules": null,
     "svelte.enable-ts-plugin": true,
@@ -1255,7 +1370,7 @@
             "icon": "terminal-powershell"
         }
     },
-    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "sqlite3-editor.telemetry": "allow",
     "sqlite3-editor.ui.minimizePanel": true,
     "eslint.format.enable": true,
@@ -1264,50 +1379,78 @@
     "cursor.general.gitGraphIndexing": "enabled",
     "emmet.useInlineCompletions": true,
     "editor.inlineSuggest.suppressSuggestions": true,
-    "window.newWindowProfile": "기본값",
     "sync.gist": "c636c502243f680ca20f1dd279978c7c",
-    "sync.autoUpload": true,
-    "sync.quietSync": true,
-    "sync.autoDownload": true,
-    "javascript.experimental.updateImportsOnPaste": true,
-    "javascript.format.semicolons": "remove",
-    "javascript.preferences.importModuleSpecifier": "relative",
-    "javascript.preferences.importModuleSpecifierEnding": "js",
-    "javascript.preferences.quoteStyle": "single",
     "database-client.autoSync": true,
-    "debug.console.acceptSuggestionOnEnter": "on",
-    "editor.linkedEditing": true,
-    "editor.minimap.enabled": true,
-    "terminal.integrated.allowedLinkSchemes": [
-        "file",
-        "http",
-        "https",
-        "mailto",
-        "vscode",
-        "vscode-insiders",
-        "docker-desktop"
+    "cursor.cpp.disabledLanguages": [
+        "plaintext",
+        "markdown",
+        "scminput"
     ],
-    "plpgsqlLanguageServer.definitionFiles": [
-        "**/*.psql",
-        "**/*.pgsql",
-        "**/*.sql"
+    "python.analysis.supportRestructuredText": true,
+    "python.languageServer": "Pylance",
+    "editor.inlayHints.enabled": "on",
+    "diffEditor.wordWrap": "on",
+    "editor.guides.indentation": true,
+    "better-yaml.indentSeq": true,
+    "pythonIndent.trimLinesWithOnlyWhitespace": true,
+    "ruff.lint.select": [
+        "E4",
+        "E7",
+        "E9",
+        "F"
     ],
-    "plpgsqlLanguageServer.keywordQueryParameterPattern": [
-        "\":{keyword}\""
+    "ruff.lineLength": 150,
+    "ruff.lint.ignore": [
+        "D101"
     ],
-    "prettier.semi": false,
     "typescript.format.semicolons": "remove",
-    "helium-icon-theme.folders.theme": "specific",
-    "python.analysis.inlayHints.callArgumentNames": "partial",
-    "python.analysis.completeFunctionParens": true,
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "notebook.defaultFormatter": "ms-python.black-formatter",
-    "cursor.terminal.usePreviewBox": true,
-    "syncSettings.crons": {
-        "review": "0 * * * *",
-        "download": "30 9 * * *",
-        "upload": "0 18 * * *"
-    },
-    "ruff.lint.run": "onSave",
-    "ruff.importStrategy": "useBundled"
+    "javascript.format.semicolons": "remove",
+    "github.gitProtocol": "ssh",
+    "git.autoStash": true,
+    "git.blame.statusBarItem.enabled": true,
+    "dbcode.connections": [
+        {
+            "connectionId": "KstXiWeYX4CPBM5qZ12Um",
+            "name": "pocketbase",
+            "driver": "sqlite",
+            "socket": "/Users/daehyeon/Documents/Code/개인 프로젝트/knitforest/knitforest_svelte/pb_data/data.db",
+            "readOnly": true,
+            "driverOptions": {
+                "extensions": []
+            },
+            "connectionType": "socket"
+        },
+        {
+            "connectionId": "R5NcLL3mZmW7SgbnHhZ0d",
+            "name": "테스트서버",
+            "driver": "postgres",
+            "connectionType": "host",
+            "host": "121.157.229.40",
+            "port": 5432,
+            "ssl": false,
+            "username": "postgres",
+            "password": "Ag4ocmcv+88UAsQNLxusK6iqUYRPT2nJjKTkgqhSxzeAe6E1GA==",
+            "savePassword": "encrypted",
+            "salt": "GoXbfYA9mEpEOC4O6uhHQQ==",
+            "database": "postgres",
+            "readOnly": false,
+            "connectionTimeout": 30
+        },
+        {
+            "connectionId": "WLmrJ2ZL_XWvLgOpbzPth",
+            "name": "리블링",
+            "driver": "postgres",
+            "connectionType": "host",
+            "host": "localhost",
+            "port": 5432,
+            "ssl": false,
+            "username": "postgres",
+            "password": "",
+            "savePassword": "secretStorage",
+            "database": "rebling",
+            "readOnly": false,
+            "connectionTimeout": 30
+        }
+    ],
+    "dbcode.resultLocation": "panel",
 }

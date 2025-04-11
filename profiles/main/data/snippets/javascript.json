@@ -12,9 +12,30 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"Add type info": {
-		"prefix": "@type",
-		"description": "Add type info",
-		"body": "/** @type {${1:Type}} */",
+	"트랜잭션 서비스": {
+		"description": "트랜잭션 프록시가 적용된 Service 생성",
+		"prefix": "tService",
+		"body": [
+			"class _${1:name} {",
+			"$0",
+			"}",
+			"",
+			"/** @type {typeof _$1} */",
+			"export const $1 = createTransactionalService(_$1)"
+		]
 	},
+	"매퍼 클래스 생성": {
+		"prefix": "mapper",
+		"body": [
+			"export class ${1:name} extends BaseMapper {",
+			"$0",
+			"}",
+		]
+	},
+	"타입 정보 추가": {
+		"prefix": "@type",
+		"body": [
+			"/** @type {$0} */",
+		]
+	}
 }
