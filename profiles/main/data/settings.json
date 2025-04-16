@@ -276,7 +276,9 @@
                 "method": "#81C784",
                 "method.declaration": "#81C784",
                 "function.declaration": "#81C784",
+                "method:python": "#81C784",
                 "interface": "#80B1E3",
+                "class:python": "#80B1E3",
                 "enum": "#80B1E3",
                 "enumMember": "#E6C587"
             }
@@ -1448,6 +1450,21 @@
             "password": "",
             "savePassword": "secretStorage",
             "database": "rebling",
+            "readOnly": false,
+            "connectionTimeout": 30
+        },
+        {
+            "connectionId": "EbY0dRTswJIQ-ixrusudQ",
+            "name": "링구_결제_모듈",
+            "driver": "postgres",
+            "connectionType": "host",
+            "host": "localhost",
+            "port": 5432,
+            "ssl": false,
+            "username": "postgres",
+            "password": "",
+            "savePassword": "secretStorage",
+            "database": "heredot_pay_db",
             "readOnly": false,
             "connectionTimeout": 30
         }
