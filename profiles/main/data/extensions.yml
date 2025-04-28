@@ -4,10 +4,6 @@ builtin:
 disabled:
   - id: joseavr.code-scope-highlighter
     uuid: 6e82a28d-b443-4629-830d-16942538a20b
-  - id: ms-python.black-formatter
-    uuid: 859e640c-c157-47da-8699-9080b81c8371
-  - id: ms-python.pylint
-    uuid: 8dc47276-5882-4c5f-903d-7eef7b9d1584
 enabled:
   - id: 1nVitr0.invert-if
     uuid: 4851d01a-8ac3-4a4d-9ad7-2c91cdf76240
@@ -141,8 +137,6 @@ enabled:
     uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
   - id: MS-CEINTL.vscode-language-pack-ko
     uuid: 7c15d326-cfdd-4932-9409-634b512daebe
-  - id: ms-python.autopep8
-    uuid: 5a21b0c3-89ca-46dd-8ada-658518fb94a5
   - id: ms-python.debugpy
     uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
   - id: ms-python.mypy-type-checker

@@ -1130,8 +1130,8 @@
     "terminal.external.osxExec": "/Applications/iTerm.app",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.defaultProfile.osx": "zsh",
-    "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono','MesloLGS NF','Cascadia Code','D2Coding'",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "'MesloLGS NF','FiraCode Nerd Font Mono','Cascadia Code','D2Coding'",
+    "terminal.integrated.fontSize": 15,
     "terminal.integrated.fontWeight": "bold",
     "terminal.integrated.localEchoExcludePrograms": [
         "vim",
@@ -1184,7 +1184,6 @@
     "emmet.includeLanguages": {
         "django-html": "html"
     },
-    "python.defaultInterpreterPath": "/Users/daehyeon/Documents/coding_files/Boot_Camp/Django_Mini_Project/blog/OrmiTechBlog/.venv",
     "gopls": {
         "ui.semanticTokens": true
     },
@@ -1405,12 +1404,14 @@
         "scminput"
     ],
     "python.analysis.supportRestructuredText": true,
-    "python.languageServer": "Pylance",
+    "pyright.disableLanguageServices": false,
+    "pyright.disableOrganizeImports": false,
     "editor.inlayHints.enabled": "on",
     "diffEditor.wordWrap": "on",
     "editor.guides.indentation": true,
     "better-yaml.indentSeq": true,
     "pythonIndent.trimLinesWithOnlyWhitespace": true,
+    "ruff.enable": true,
     "ruff.lint.select": [
         "E4",
         "E7",
@@ -1488,4 +1489,5 @@
     "dbcode.resultLocation": "panel",
     "ruff.configuration": "/Users/songdaehyeon/.config/ruff/ruff.toml",
     "workbench.colorTheme": "Monokai Pro",
+    "mypy-type-checker.importStrategy": "fromEnvironment",
 }
