@@ -95,8 +95,6 @@ enabled:
     uuid: 235f4502-e288-45b4-a36c-3c0825d81e1b
   - id: hoovercj.vscode-power-mode
     uuid: a27ff63d-ff11-478d-b1ab-19aa1ef19882
-  - id: humao.rest-client
-    uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
   - id: hzgood.dart-data-class-generator
     uuid: 1560a802-d01c-4a78-bd0d-9e6a8fcd030e
   - id: icrawl.discord-vscode

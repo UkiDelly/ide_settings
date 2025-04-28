@@ -109,7 +109,7 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'Ligalex Mono','Jetbrains Mono','CaskaydiaCove Nerd Font Mono', 'D2Coding ligature',  'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Cascadia Code', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Ligalex Mono', 'Jetbrains Mono', 'CaskaydiaCove Nerd Font Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Cascadia Code', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.fontWeight": "500",
@@ -216,7 +216,7 @@
                 "keyword": "#ff79c6",
                 "variable": "#FEFFDB",
                 "property": "#FFC093",
-                "parameter": "#F3C1FF",
+                "parameter": "#FFC093",
                 "method": "#81C784",
                 "function": "#81C784",
                 "class": "#78DCE8",
@@ -841,6 +841,22 @@
                     ],
                     "settings": {
                         "foreground": "#FABD2F"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.character.format.placeholder.other.python"
+                    ],
+                    "settings": {
+                        "foreground": "#FF6188",
+                    }
+                },
+                {
+                    "scope": [
+                        "support.type.property-name.json.comments"
+                    ],
+                    "settings": {
+                        "foreground": "#81C784",
                     }
                 }
             ]
@@ -1470,4 +1486,6 @@
         }
     ],
     "dbcode.resultLocation": "panel",
+    "ruff.configuration": "/Users/songdaehyeon/.config/ruff/ruff.toml",
+    "workbench.colorTheme": "Monokai Pro",
 }
