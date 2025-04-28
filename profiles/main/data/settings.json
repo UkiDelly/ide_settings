@@ -811,7 +811,10 @@
                         "storage.modifier.ts",
                         "constant.language.boolean.true.ts",
                         "constant.language.boolean.false.ts",
-                        "constant.language.null.go"
+                        "constant.language.null.go",
+                        "constant.language.null.js",
+                        "constant.language.boolean.false.js",
+                        "constant.language.boolean.true.js"
                     ],
                     "settings": {
                         "fontStyle": "italic",
