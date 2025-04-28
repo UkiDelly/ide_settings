@@ -829,7 +829,8 @@
                 },
                 {
                     "scope": [
-                        "entity.name.type.interface.ts"
+                        "entity.name.type.interface.ts",
+                        "entity.name.type.instance.jsdoc"
                     ],
                     "settings": {
                         "foreground": "#78DCE8"
