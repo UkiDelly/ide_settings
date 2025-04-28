@@ -109,7 +109,7 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'Ligalex Mono', 'Jetbrains Mono', 'CaskaydiaCove Nerd Font Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Cascadia Code', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Ligalex Mono','Ligalex Mono for Powerline','Jetbrains Mono', 'CaskaydiaCove Nerd Font Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Cascadia Code', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.fontWeight": "500",
