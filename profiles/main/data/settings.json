@@ -779,7 +779,13 @@
                         "constant.language.boolean.true.ts",
                         "keyword.operator.optional.ts",
                         "keyword.operator.type.annotation.ts",
-                        "constant.language.null.go"
+                        "constant.language.null.go",
+                        "constant.language.null.ts",
+                        "constant.language.null.js",
+                        "constant.language.boolean.true.ts",
+                        "constant.language.boolean.false.ts",
+                        "constant.language.boolean.true.js",
+                        "constant.language.boolean.false.js"
                     ],
                     "settings": {
                         "foreground": "#FF6188",
@@ -1494,4 +1500,5 @@
     "ruff.configuration": "/Users/songdaehyeon/.config/ruff/ruff.toml",
     "workbench.colorTheme": "Monokai Pro",
     "mypy-type-checker.importStrategy": "fromEnvironment",
+    "typescript.preferences.importModuleSpecifierEnding": "js",
 }

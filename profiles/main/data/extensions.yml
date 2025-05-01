@@ -183,6 +183,10 @@ enabled:
     uuid: 4d32ffbd-a404-4f22-9022-38a9e83e55f1
   - id: rangav.vscode-thunder-client
     uuid: 2fd56207-78ef-49d4-95d2-9b801eee4dbf
+  - id: RapidAPI.vscode-rapidapi-client
+    uuid: 20230aac-4564-4959-86db-f01c2263f93f
+  - id: rapidapi.vscode-services
+    uuid: 211c2f7e-e520-4315-80f9-71c3dc91330b
   - id: raynigon.nginx-formatter
     uuid: 1a7b1f64-469d-4116-bb35-508ea3894f88
   - id: redhat.java
