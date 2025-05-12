@@ -1,6 +1,3 @@
-builtin:
-  disabled:
-    - undefined.cursor-themes
 disabled:
   - id: joseavr.code-scope-highlighter
     uuid: 6e82a28d-b443-4629-830d-16942538a20b
@@ -117,8 +114,6 @@ enabled:
     uuid: 1b59a093-93c8-429e-a7d7-2a177cea4f47
   - id: mathcale.theme-dracula-refined
     uuid: 566a626b-bfb5-45ca-bc03-72e33709a648
-  - id: matt-meyers.vscode-dbml
-    uuid: 4cea5698-223c-41b3-809b-a904d516f061
   - id: me-dutour-mathieu.vscode-github-actions
     uuid: 8476972c-078a-45ba-8756-b8ce15669cb9
   - id: mechatroner.rainbow-csv
@@ -183,8 +178,6 @@ enabled:
     uuid: 2fd56207-78ef-49d4-95d2-9b801eee4dbf
   - id: raynigon.nginx-formatter
     uuid: 1a7b1f64-469d-4116-bb35-508ea3894f88
-  - id: redhat.java
-    uuid: 198a707e-28af-4e84-8610-6e2f628dd12d
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: Redis.redis-for-vscode
@@ -209,22 +202,6 @@ enabled:
     uuid: 2680e2c1-8bd6-47bc-9f6c-63bf4671b724
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
-  - id: VisualStudioExptTeam.intellicode-api-usage-examples
-    uuid: 9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3
-  - id: VisualStudioExptTeam.vscodeintellicode
-    uuid: 876e8f93-74d0-4f4f-91b7-34a09f19f444
-  - id: vscjava.vscode-gradle
-    uuid: a226f06e-9b5e-493b-b92a-553d3572f969
-  - id: vscjava.vscode-java-debug
-    uuid: 61fcd0cf-64d7-4836-8d6b-d55f4fb83281
-  - id: vscjava.vscode-java-dependency
-    uuid: 7865e561-1c83-410e-9b99-aabada597a7e
-  - id: vscjava.vscode-java-pack
-    uuid: 96f11e1f-1a46-4592-b084-f025b2c2a81f
-  - id: vscjava.vscode-java-test
-    uuid: 67c06b0d-1891-42ca-b2a8-113e79bff069
-  - id: vscjava.vscode-maven
-    uuid: b0f06c6b-24fb-4d7b-bd79-bc5e2fa17312
   - id: whizkydee.material-palenight-theme
     uuid: 7f147721-ec06-4043-9e37-c9ffbecbccd1
   - id: william-voyek.vscode-nginx
