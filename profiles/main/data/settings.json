@@ -1246,7 +1246,7 @@
         }
     },
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
-    "workbench.iconTheme": "helium-icon-theme",
+    "workbench.iconTheme": "Monokai Pro Icons",
     "editor.unicodeHighlight.nonBasicASCII": false,
     "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
     "typescript.inlayHints.variableTypes.enabled": true,

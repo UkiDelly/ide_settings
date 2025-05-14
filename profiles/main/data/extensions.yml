@@ -1,3 +1,6 @@
+builtin:
+  disabled:
+    - undefined.cursor-themes
 disabled:
   - id: joseavr.code-scope-highlighter
     uuid: 6e82a28d-b443-4629-830d-16942538a20b
@@ -86,8 +89,6 @@ enabled:
     uuid: 235f4502-e288-45b4-a36c-3c0825d81e1b
   - id: hoovercj.vscode-power-mode
     uuid: a27ff63d-ff11-478d-b1ab-19aa1ef19882
-  - id: hzgood.dart-data-class-generator
-    uuid: 1560a802-d01c-4a78-bd0d-9e6a8fcd030e
   - id: icrawl.discord-vscode
     uuid: 2bbe1392-1ad3-4f59-82bc-fccaa3afc3a5
   - id: idered.npm
@@ -112,8 +113,6 @@ enabled:
     uuid: e830906f-e167-461e-90f2-998014d23c5f
   - id: mateocerquetella.xcode-12-theme
     uuid: 1b59a093-93c8-429e-a7d7-2a177cea4f47
-  - id: mathcale.theme-dracula-refined
-    uuid: 566a626b-bfb5-45ca-bc03-72e33709a648
   - id: me-dutour-mathieu.vscode-github-actions
     uuid: 8476972c-078a-45ba-8756-b8ce15669cb9
   - id: mechatroner.rainbow-csv
@@ -190,8 +189,6 @@ enabled:
     uuid: d7b0c43a-5aaa-4181-9196-293551f7b37a
   - id: SimonSiefke.svg-preview
     uuid: 51cd7dfb-14fa-4fcc-aa42-16add9281456
-  - id: steoates.autoimport
-    uuid: 70378119-1d85-4935-9733-0298c7a369a2
   - id: svelte.svelte-vscode
     uuid: c5463f77-75d9-4a25-8cc4-d8541a461285
   - id: tal7aouy.icons
