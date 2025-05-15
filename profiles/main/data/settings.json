@@ -868,6 +868,14 @@
                     "settings": {
                         "foreground": "#81C784",
                     }
+                },
+                {
+                    "scope": [
+                        "variable.other.property.js"
+                    ],
+                    "settings": {
+                        "foreground": "#FFC093",
+                    }
                 }
             ]
         },
@@ -1498,7 +1506,10 @@
     ],
     "dbcode.resultLocation": "panel",
     "ruff.configuration": "/Users/songdaehyeon/.config/ruff/ruff.toml",
-    "workbench.colorTheme": "Monokai Pro",
     "mypy-type-checker.importStrategy": "fromEnvironment",
     "typescript.preferences.importModuleSpecifierEnding": "js",
+    "workbench.colorTheme": "Monokai Pro",
+    "remote.SSH.remotePlatform": {
+        "Heredot": "linux"
+    },
 }
