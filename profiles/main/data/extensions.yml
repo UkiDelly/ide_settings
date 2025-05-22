@@ -2,8 +2,8 @@ builtin:
   disabled:
     - undefined.cursor-themes
 disabled:
-  - id: joseavr.code-scope-highlighter
-    uuid: 6e82a28d-b443-4629-830d-16942538a20b
+  - id: anysphere.remote-ssh
+    uuid: 73a45d83-83c7-4b22-bebf-c9130b0ab3f3
 enabled:
   - id: 1nVitr0.invert-if
     uuid: 4851d01a-8ac3-4a4d-9ad7-2c91cdf76240
@@ -59,6 +59,8 @@ enabled:
     uuid: f5188937-53e0-45bb-a16d-61231003fa3b
   - id: DSKWRK.vscode-generate-getter-setter
     uuid: f00faeee-e939-4900-aaa5-3bf3f62440a3
+  - id: eamodio.gitlens
+    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: evan-buss.font-switcher
@@ -89,6 +91,8 @@ enabled:
     uuid: 235f4502-e288-45b4-a36c-3c0825d81e1b
   - id: hoovercj.vscode-power-mode
     uuid: a27ff63d-ff11-478d-b1ab-19aa1ef19882
+  - id: hzgood.dart-data-class-generator
+    uuid: 1560a802-d01c-4a78-bd0d-9e6a8fcd030e
   - id: icrawl.discord-vscode
     uuid: 2bbe1392-1ad3-4f59-82bc-fccaa3afc3a5
   - id: idered.npm
@@ -97,6 +101,8 @@ enabled:
     uuid: 5b8b4f52-3981-48c2-ad89-893100a96a4f
   - id: jdinhlife.gruvbox
     uuid: c6d564c4-ca8c-45ba-abf6-c85f2d1468d8
+  - id: joseavr.code-scope-highlighter
+    uuid: 6e82a28d-b443-4629-830d-16942538a20b
   - id: Kaiqun.build-runner
     uuid: ae436969-975a-40b9-ae9f-57d9f36b9a57
   - id: keksiqc.idx-monospace-theme
@@ -143,73 +149,21 @@ enabled:
     uuid: 607fd052-be03-4363-b657-2bd62b83d28a
   - id: ms-vscode-remote.remote-ssh-edit
     uuid: bfeaf631-bcff-4908-93ed-fda4ef9a0c5c
-  - id: ms-vscode-remote.remote-wsl
-    uuid: f0c5397b-d357-4197-99f0-cb4202f22818
-  - id: ms-vscode-remote.vscode-remote-extensionpack
-    uuid: 23d72dfc-8dd1-4e30-926e-8783b4378f13
-  - id: ms-vscode.live-server
-    uuid: 4eae7368-ec63-429d-8449-57a7df5e2117
   - id: ms-vscode.remote-explorer
     uuid: 11858313-52cc-4e57-b3e4-d7b65281e34b
-  - id: ms-vscode.remote-server
-    uuid: 105c0b3c-07a9-4156-a4fc-4141040eb07e
-  - id: ms-vscode.vscode-typescript-next
-    uuid: 15305aca-2588-4ca0-8147-ab2c64730b82
-  - id: Nash.awesome-flutter-snippets
-    uuid: b89a385b-a059-47d8-956f-cd87efc742ea
-  - id: naumovs.color-highlight
-    uuid: 121396ad-85a1-45ec-9fd1-d95028a847f5
   - id: njpwerner.autodocstring
     uuid: 2d6fea35-f68e-461d-9b7b-5cd05be99451
-  - id: oderwat.indent-rainbow
-    uuid: eaa2127d-cb69-4ab9-8505-a60c9ee5f28b
-  - id: openai.chatgpt
-    uuid: 90b52117-6fd1-4f1c-9e14-256bd6e21d79
   - id: oven.bun-vscode
     uuid: 2c58c6a8-c23c-4913-899e-17c90b15274e
-  - id: PKief.material-icon-theme
-    uuid: 5db78037-f674-459f-a236-db622c427c5b
-  - id: Prisma.prisma
-    uuid: 33ce9d6b-41cf-4972-a62b-386f7201981d
-  - id: qufiwefefwoyn.inline-sql-syntax
-    uuid: 4d32ffbd-a404-4f22-9022-38a9e83e55f1
-  - id: rangav.vscode-thunder-client
-    uuid: 2fd56207-78ef-49d4-95d2-9b801eee4dbf
-  - id: raynigon.nginx-formatter
-    uuid: 1a7b1f64-469d-4116-bb35-508ea3894f88
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
-  - id: Redis.redis-for-vscode
-    uuid: 87d0bce0-e306-4854-ac9a-823266e68e07
-  - id: robert-brunhage.flutter-riverpod-snippets
-    uuid: b85c5930-27ab-45aa-b7e6-ba6f7ef345dc
-  - id: rubiin.nestjs
-    uuid: 67aa57c0-1251-435c-8718-c4f5bbd73390
-  - id: seatonjiang.gitmoji-vscode
-    uuid: d7b0c43a-5aaa-4181-9196-293551f7b37a
-  - id: SimonSiefke.svg-preview
-    uuid: 51cd7dfb-14fa-4fcc-aa42-16add9281456
-  - id: svelte.svelte-vscode
-    uuid: c5463f77-75d9-4a25-8cc4-d8541a461285
-  - id: tal7aouy.icons
-    uuid: dcd805cf-7bf1-458e-8739-26a6077c784f
-  - id: tinaciousdesign.theme-tinaciousdesign
-    uuid: 2d7381e3-ca4b-430c-a6cf-0d8ee0643f64
-  - id: UkiDelly.Ukidelly
-    uuid: 2680e2c1-8bd6-47bc-9f6c-63bf4671b724
+  - id: tamasfe.even-better-toml
+    uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
-  - id: whizkydee.material-palenight-theme
-    uuid: 7f147721-ec06-4043-9e37-c9ffbecbccd1
-  - id: william-voyek.vscode-nginx
-    uuid: 414b2873-c80e-4dc6-9031-bd185cfb3944
-  - id: wix.vscode-import-cost
-    uuid: c46b0018-f317-4b6c-a785-d2039b27338f
-  - id: wraith13.bracket-lens
-    uuid: d10697c0-6bdd-4b6f-8e09-f92f578168ca
-  - id: YoavBls.pretty-ts-errors
-    uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
-  - id: yy0931.vscode-sqlite3-editor
-    uuid: b45c1a9d-029a-4649-94ef-f74559881c8a
+  - id: VisualStudioExptTeam.intellicode-api-usage-examples
+    uuid: 9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3
+  - id: VisualStudioExptTeam.vscodeintellicode
+    uuid: 876e8f93-74d0-4f4f-91b7-34a09f19f444
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

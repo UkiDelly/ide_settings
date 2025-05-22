@@ -109,7 +109,7 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'Ligalex Mono for Powerline','Ligalex Mono', 'Jetbrains Mono', 'CaskaydiaCove Nerd Font Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Cascadia Code', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Ligalex Mono', 'Jetbrains Mono', 'CaskaydiaCove Nerd Font Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Cascadia Code', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.fontWeight": "500",
@@ -243,7 +243,8 @@
                 "enum": "#89DDFF",
                 "module": "#89DDFF",
                 "namespace": "#89DDFF",
-                "type": "#78DCE8"
+                "type": "#78DCE8",
+                "enumMember": "#FFC093"
             }
         },
         "[Xcode Classic (Dark)]": {
@@ -931,7 +932,8 @@
                     "scope": [
                         "support.type.builtin.ts",
                         "constant.language.null.ts",
-                        "support.type.object.module.js"
+                        "support.type.object.module.js",
+                        "punctuation.accessor.ts"
                     ],
                     "settings": {
                         "foreground": "#FD8DA3",
@@ -941,7 +943,9 @@
                 {
                     "scope": [
                         "meta.function-call.python",
-                        "entity.name.function.js"
+                        "entity.name.function.js",
+                        "meta.function-call.ts",
+                        "entity.name.function.ts"
                     ],
                     "settings": {
                         "foreground": "#81C784",
@@ -1094,7 +1098,7 @@
         "source.convertImportFormat"
     ],
     "python.analysis.indexing": true,
-    "python.analysis.inlayHints.callArgumentNames": "partial",
+    "python.analysis.inlayHints.callArgumentNames": "all",
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.inlayHints.pytestParameters": true,
     "python.analysis.inlayHints.variableTypes": true,
@@ -1260,7 +1264,7 @@
         }
     },
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
-    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.iconTheme": "helium-icon-theme",
     "editor.unicodeHighlight.nonBasicASCII": false,
     "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
     "typescript.inlayHints.variableTypes.enabled": true,
@@ -1508,7 +1512,7 @@
     "ruff.configuration": "/Users/songdaehyeon/.config/ruff/ruff.toml",
     "mypy-type-checker.importStrategy": "fromEnvironment",
     "typescript.preferences.importModuleSpecifierEnding": "js",
-    "workbench.colorTheme": "Monokai Pro",
+    "workbench.colorTheme": "Monospace Dark",
     "remote.SSH.remotePlatform": {
         "Heredot": "linux"
     },
