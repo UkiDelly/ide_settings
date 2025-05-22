@@ -59,6 +59,8 @@ enabled:
     uuid: f5188937-53e0-45bb-a16d-61231003fa3b
   - id: DSKWRK.vscode-generate-getter-setter
     uuid: f00faeee-e939-4900-aaa5-3bf3f62440a3
+  - id: eamodio.gitlens
+    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: evan-buss.font-switcher
@@ -157,6 +159,8 @@ enabled:
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
+  - id: usernamehw.errorlens
+    uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: VisualStudioExptTeam.intellicode-api-usage-examples
     uuid: 9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3
   - id: VisualStudioExptTeam.vscodeintellicode
