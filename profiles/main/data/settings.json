@@ -109,7 +109,7 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'Ligalex Mono', 'Jetbrains Mono', 'CaskaydiaCove Nerd Font Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Cascadia Code', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Victor Mono','Ligalex Mono', 'Jetbrains Mono', 'CaskaydiaCove Nerd Font Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Cascadia Code', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.fontWeight": "600",
@@ -888,10 +888,11 @@
                 },
                 {
                     "scope": [
-                        "punctuation.decorator.ts"
+                        "punctuation.decorator.ts",
                     ],
                     "settings": {
-                        "foreground": "#FF79C6"
+                        "foreground": "#FD8DA3",
+                        "fontStyle": "italic"
                     }
                 },
                 {
@@ -933,7 +934,18 @@
                         "support.type.builtin.ts",
                         "constant.language.null.ts",
                         "support.type.object.module.js",
-                        "punctuation.accessor.ts"
+                        "punctuation.accessor.ts",
+                        "keyword.control.export.ts",
+                        "keyword.control.import.ts",
+                        "keyword.control.from.ts",
+                        "keyword.control.type.ts",
+                        "keyword.control.flow.ts",
+                        "storage.modifier.async.ts",
+                        "storage.type.function.ts",
+                        "storage.modifier.ts",
+                        "storage.type.class.ts",
+                        "storage.type.ts",
+                        "keyword.operator.new.ts",
                     ],
                     "settings": {
                         "foreground": "#FD8DA3",
