@@ -926,7 +926,7 @@
                     ],
                     "settings": {
                         "foreground": "#78DCE8",
-                        "fontStyle": "italic"
+                        // "fontStyle": "italic"
                     }
                 },
                 {
@@ -946,6 +946,8 @@
                         "storage.type.class.ts",
                         "storage.type.ts",
                         "keyword.operator.new.ts",
+                        "storage.type.interface.ts",
+                        "keyword.control.conditional.ts"
                     ],
                     "settings": {
                         "foreground": "#FD8DA3",
