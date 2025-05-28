@@ -1279,7 +1279,7 @@
         }
     },
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
-    "workbench.iconTheme": "helium-icon-theme",
+    "workbench.iconTheme": "monospace-icons",
     "editor.unicodeHighlight.nonBasicASCII": false,
     "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
     "typescript.inlayHints.variableTypes.enabled": true,
@@ -1532,4 +1532,41 @@
         "Heredot": "linux"
     },
     "errorLens.fontWeight": "500",
+    "highlight.decorations": {
+        "rangeBehavior": 3
+    },
+    "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "NOTE"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "BUG": {
+            "icon": "bug"
+        },
+        "HACK": {
+            "icon": "tools"
+        },
+        "FIXME": {
+            "icon": "flame"
+        },
+        "XXX": {
+            "icon": "x"
+        },
+        "[ ]": {
+            "icon": "issue-draft"
+        },
+        "[x]": {
+            "icon": "issue-closed"
+        }
+    },
+    "todo-tree.highlights.useColourScheme": true,
+    "todo-tree.general.showActivityBarBadge": true,
+    "todo-tree.highlights.defaultHighlight": {},
 }
