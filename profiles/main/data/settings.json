@@ -1279,7 +1279,7 @@
         }
     },
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
-    "workbench.iconTheme": "monospace-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.unicodeHighlight.nonBasicASCII": false,
     "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
     "typescript.inlayHints.variableTypes.enabled": true,
