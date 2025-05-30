@@ -244,7 +244,8 @@
                 "module": "#89DDFF",
                 "namespace": "#89DDFF",
                 "type": "#78DCE8",
-                "enumMember": "#FFC093"
+                "enumMember": "#FFC093",
+                "builtinConstant": "#FD8DA3"
             }
         },
         "[Xcode Classic (Dark)]": {
@@ -888,15 +889,6 @@
                 },
                 {
                     "scope": [
-                        "punctuation.decorator.ts",
-                    ],
-                    "settings": {
-                        "foreground": "#FD8DA3",
-                        "fontStyle": "italic"
-                    }
-                },
-                {
-                    "scope": [
                         "variable.language.this.js",
                         "variable.language.this.ts"
                     ],
@@ -947,7 +939,9 @@
                         "storage.type.ts",
                         "keyword.operator.new.ts",
                         "storage.type.interface.ts",
-                        "keyword.control.conditional.ts"
+                        "keyword.control.conditional.ts",
+                        "punctuation.decorator.ts",
+                        "constant.language.python"
                     ],
                     "settings": {
                         "foreground": "#FD8DA3",
