@@ -914,7 +914,11 @@
                     "scope": [
                         "support.type.primitive.ts",
                         "constant.other.table-name.sql",
-                        "entity.name.type.instance.jsdoc"
+                        "entity.name.type.instance.jsdoc",
+                        "support.type.primitive.prisma",
+                        "entity.name.type.enum.prisma",
+                        "entity.name.type.model.prisma",
+                        "entity.name.type.config.prisma"
                     ],
                     "settings": {
                         "foreground": "#78DCE8",
@@ -941,7 +945,10 @@
                         "storage.type.interface.ts",
                         "keyword.control.conditional.ts",
                         "punctuation.decorator.ts",
-                        "constant.language.python"
+                        "constant.language.python",
+                        "storage.type.config.prisma",
+                        "storage.type.model.prisma",
+                        "storage.type.enum.prisma"
                     ],
                     "settings": {
                         "foreground": "#FD8DA3",
@@ -950,11 +957,20 @@
                 },
                 {
                     "scope": [
+                        "entity.name.function.attribute.prisma",
+                    ],
+                    "settings": {
+                        "foreground": "#FD8DA3",
+                    }
+                },
+                {
+                    "scope": [
                         "meta.function-call.python",
                         "entity.name.function.js",
                         "meta.function-call.ts",
                         "entity.name.function.ts",
-                        "variable.language.super.ts"
+                        "variable.language.super.ts",
+                        "support.function.functional.prisma"
                     ],
                     "settings": {
                         "foreground": "#81C784",
@@ -970,7 +986,8 @@
                 },
                 {
                     "scope": [
-                        "variable.other.property.js"
+                        "variable.other.property.js",
+                        "support.constant.constant.prisma"
                     ],
                     "settings": {
                         "foreground": "#FFC093",
