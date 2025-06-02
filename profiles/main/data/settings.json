@@ -948,7 +948,9 @@
                         "constant.language.python",
                         "storage.type.config.prisma",
                         "storage.type.model.prisma",
-                        "storage.type.enum.prisma"
+                        "storage.type.enum.prisma",
+                        "storage.type.type.ts",
+                        "keyword.operator.expression.typeof.ts"
                     ],
                     "settings": {
                         "foreground": "#FD8DA3",
