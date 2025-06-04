@@ -974,6 +974,7 @@
                         "storage.modifier.await.ts",
                         "storage.type.class.js",
                         "storage.type.class.ts",
+                        "storage.type.function.js"
                     ],
                     "settings": {
                         "foreground": "#FD8DA3",
@@ -1605,4 +1606,5 @@
     "todo-tree.highlights.useColourScheme": true,
     "todo-tree.general.showActivityBarBadge": true,
     "todo-tree.highlights.defaultHighlight": {},
+    "material-icon-theme.activeIconPack": "nest",
 }
