@@ -960,8 +960,6 @@
                         "storage.type.js",
                         "keyword.control.import.js",
                         "keyword.control.from.js",
-                        "constant.language.boolean.true.ts",
-                        "constant.language.boolean.false.ts",
                         "constant.language.boolean.true.js",
                         "constant.language.boolean.false.js",
                         "keyword.control.export.js",
@@ -974,7 +972,9 @@
                         "storage.modifier.await.ts",
                         "storage.type.class.js",
                         "storage.type.class.ts",
-                        "storage.type.function.js"
+                        "storage.type.function.async.python",
+                        "storage.type.function.python",
+                        "keyword.control.flow.python",
                     ],
                     "settings": {
                         "foreground": "#FD8DA3",
@@ -1466,7 +1466,6 @@
     "sqlite3-editor.ui.minimizePanel": true,
     "eslint.format.enable": true,
     "workbench.editorLargeFileConfirmation": 100,
-    "cursor.cpp.enablePartialAccepts": true,
     "cursor.general.gitGraphIndexing": "enabled",
     "emmet.useInlineCompletions": true,
     "editor.inlineSuggest.suppressSuggestions": true,
@@ -1607,4 +1606,6 @@
     "todo-tree.general.showActivityBarBadge": true,
     "todo-tree.highlights.defaultHighlight": {},
     "material-icon-theme.activeIconPack": "nest",
+    "javascript.preferences.importModuleSpecifierEnding": "js",
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
 }
