@@ -217,7 +217,7 @@ workbench.contrib.onboarding.browser.changeManagement.v1.shown: "true"
 workbench.contrib.onboarding.browser.changePopup.03292025.shown: "true"
 workbench.contrib.onboarding.browser.changeRemainingCmdBackspaceKeybindings.04012025.shown: "true"
 workbench.contrib.onboarding.browser.gettingStarted.contribution.ts.firsttime: "false"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["shellscript",true],["markdown",true],["prisma",true],["jsonc",true],["properties",true],["javascript",true],["dockercompose",true],["json",true],["git-commit",true],["python",true],["plaintext",true],["typescript",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["shellscript",true],["markdown",true],["prisma",true],["properties",true],["javascript",true],["dockercompose",true],["json",true],["git-commit",true],["python",true],["plaintext",true],["typescript",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"backgroundComposerExplorer","isHidden":false},{"id":"notepad","isHidden":true},{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"dartDependencyTree","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"go.package.outline","isHidden":false},{"id":"build_runner_view","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"liveshare.session.explorer","isHidden":false},{"id":"sqlite3-editor.tableList","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.aipaneaaaiBugFinder.hidden: '[{"id":"workbench.panel.aipane.viewaaaiBugFinder","isHidden":false}]'
