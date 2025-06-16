@@ -53,8 +53,6 @@ enabled:
     uuid: f6c3ec04-6057-4d9c-b997-69cba07a6158
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
-  - id: dbcode.dbcode
-    uuid: a172cbe5-f099-458f-b024-382d48f54aa0
   - id: devmuaz.flutterhookssnippets
     uuid: f39727e8-9cbc-453c-b95e-9f170d8a046f
   - id: donjayamanne.python-environment-manager
