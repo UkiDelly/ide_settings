@@ -1160,6 +1160,7 @@
     "python.analysis.inlayHints.variableTypes": true,
     "python.analysis.logLevel": "Warning",
     "python.analysis.packageIndexDepths": [
+        {},
         {
             "depth": 2,
             "name": "sklearn"
