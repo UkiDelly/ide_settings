@@ -210,7 +210,8 @@
         "[Gruvbox Dark Medium]": {
             "enabled": true,
             "rules": {
-                "keyword": "#ff79c6"
+                "keyword": "#ff79c6",
+                "property": "#FFC093"
             }
         },
         "[Monokai Pro]": {
@@ -763,13 +764,15 @@
                         "keyword.control.import.ts",
                         "keyword.control.trycatch.ts",
                         "keyword.control.from.ts",
+                        "keyword.control.default.ts",
                         "keyword.control.flow.tsx",
                         "keyword.control.export.tsx",
                         "keyword.operator.logical.tsx",
                         "keyword.control.conditional.tsx",
                         "keyword.control.import.tsx",
                         "keyword.control.trycatch.tsx",
-                        "keyword.control.from.tsx"
+                        "keyword.control.from.tsx",
+                        "keyword.control.default.tsx"
                     ],
                     "settings": {
                         "fontStyle": "italic"
@@ -788,19 +791,44 @@
                 {
                     // 클래스
                     "scope": [
-                        "support.class.component.tsx"
+                        "support.class.component.tsx",
+                        "entity.name.tag.tsx"
                     ],
                     "settings": {
                         "foreground": "#FABD2F"
                     }
                 },
                 {
+                    // param
+                    "scope": [
+                        "entity.other.attribute-name.tsx"
+                    ],
+                    "settings": {
+                        "foreground": "#F3C1FF",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
                     // import문에 있는 모듈 이름
                     "scope": [
-                        "variable.other.readwrite.alias.tsx"
+                        "variable.other.readwrite.alias.tsx",
+                        "variable.other.object.tsx",
+                        "variable.other.readwrite.alias.ts",
+                        "variable.other.object.ts",
+                        "variable.other.readwrite.alias.js",
+                        "variable.other.object.js"
                     ],
                     "settings": {
                         "foreground": "#EBDBB2",
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.function.python",
+                        "meta.function.python"
+                    ],
+                    "settings": {
+                        "fontStyle": ""
                     }
                 },
                 {
