@@ -109,10 +109,10 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'Victor Mono', 'Cascadia Code NF', 'CaskaydiaCove Nerd Font Mono', 'Ligalex Mono', 'Jetbrains Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Cascadia Code NF', 'Victor Mono', 'CaskaydiaCove Nerd Font Mono', 'Ligalex Mono', 'Jetbrains Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20','calt', 'ss01'",
     "editor.fontSize": 16,
-    "editor.fontWeight": "600",
+    "editor.fontWeight": "500",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -211,7 +211,10 @@
             "enabled": true,
             "rules": {
                 "keyword": "#ff79c6",
-                "property": "#FFC093"
+                "property": "#FFC093",
+                "property:python": "#FFC093",
+                "selfParameter": "#A3A3A3",
+                "enumMember": "#FFC093"
             }
         },
         "[Monokai Pro]": {
@@ -745,6 +748,18 @@
         "[Gruvbox Dark Medium]": {
             "textMateRules": [
                 {
+                    // this, self
+                    "scope": [
+                        "variable.language.this.js",
+                        "variable.language.this.ts",
+                        "variable.language.special.self.python"
+                    ],
+                    "settings": {
+                        "foreground": "#A3A3A3",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
                     // 키워드
                     "scope": [
                         "storage.type.function.python",
@@ -772,7 +787,10 @@
                         "keyword.control.import.tsx",
                         "keyword.control.trycatch.tsx",
                         "keyword.control.from.tsx",
-                        "keyword.control.default.tsx"
+                        "keyword.control.default.tsx",
+                        "storage.type.function.async.python",
+                        "keyword.operator.new.ts",
+                        "keyword.operator.new.js",
                     ],
                     "settings": {
                         "fontStyle": "italic"
@@ -782,7 +800,19 @@
                     // 키워드 2
                     "scope": [
                         "storage.type.function.tsx",
-                        "storage.type.tsx"
+                        "storage.type.tsx",
+                        "storage.type.class.js",
+                        "storage.type.class.jsx",
+                        "storage.type.class.ts",
+                        "storage.type.class.tsx",
+                        "storage.type.ts",
+                        "storage.type.js",
+                        "storage.type.function.ts",
+                        "storage.type.function.js",
+                        "storage.modifier.async.ts",
+                        "storage.modifier.async.js",
+                        "storage.modifier.await.ts",
+                        "storage.modifier.await.js",
                     ],
                     "settings": {
                         "fontStyle": "italic"
@@ -965,7 +995,8 @@
                 {
                     "scope": [
                         "variable.language.this.js",
-                        "variable.language.this.ts"
+                        "variable.language.this.ts",
+                        "variable.language.special.self.python"
                     ],
                     "settings": {
                         "foreground": "#A3A3A3",
