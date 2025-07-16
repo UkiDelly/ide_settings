@@ -109,7 +109,7 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'Victor Mono','Cascadia Code NF','CaskaydiaCove Nerd Font Mono', 'Ligalex Mono', 'Jetbrains Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Victor Mono', 'Cascadia Code NF', 'CaskaydiaCove Nerd Font Mono', 'Ligalex Mono', 'Jetbrains Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20','calt', 'ss01'",
     "editor.fontSize": 16,
     "editor.fontWeight": "600",
@@ -290,15 +290,6 @@
                 "class:python": "#80B1E3",
                 "enum": "#80B1E3",
                 "enumMember": "#E6C587"
-            }
-        },
-        "[Kiro Dark]": {
-            "enabled": true,
-            "rules": {
-                "variable": "#D9DFE7",
-                "property": "#FFC093",
-                "function": "#81C784",
-                "method": "#81C784",
             }
         }
     },
@@ -1182,71 +1173,6 @@
                     }
                 }
             ]
-        },
-        "[Kiro Dark]": {
-            "textMateRules": [
-                {
-                    "scope": [
-                        "support.type.builtin.ts",
-                        "constant.language.null.ts",
-                        "support.type.object.module.js",
-                        "punctuation.accessor.ts",
-                        "keyword.control.export.ts",
-                        "keyword.control.import.ts",
-                        "keyword.control.import.js",
-                        "keyword.control.from.ts",
-                        "keyword.control.from.js",
-                        "keyword.control.type.ts",
-                        "keyword.control.type.js",
-                        "keyword.control.flow.ts",
-                        "keyword.control.flow.js",
-                        "storage.modifier.async.ts",
-                        "storage.type.function.ts",
-                        "storage.modifier.ts",
-                        "storage.type.class.ts",
-                        "storage.type.ts",
-                        "keyword.operator.new.ts",
-                        "storage.type.interface.ts",
-                        "keyword.control.conditional.ts",
-                        "keyword.control.conditional.js",
-                        "punctuation.decorator.ts",
-                        "constant.language.python",
-                        "storage.type.config.prisma",
-                        "storage.type.model.prisma",
-                        "storage.type.enum.prisma",
-                        "keyword.control.trycatch.js",
-                        "keyword.control.trycatch.ts",
-                        "storage.type.class.jsdoc",
-                        "storage.type.js",
-                        "keyword.control.import.js",
-                        "keyword.control.from.js",
-                        "constant.language.boolean.true.js",
-                        "constant.language.boolean.false.js",
-                        "keyword.control.export.js",
-                        "keyword.operator.new.js",
-                        "keyword.operator.expression.instanceof.js",
-                        "keyword.operator.expression.instanceof.ts",
-                        "storage.modifier.async.js",
-                        "storage.modifier.async.ts",
-                        "storage.modifier.await.js",
-                        "storage.modifier.await.ts",
-                        "storage.type.class.js",
-                        "storage.type.class.ts",
-                        "storage.type.function.async.python",
-                        "storage.type.function.python",
-                        "keyword.control.flow.python",
-                        "constant.language.boolean.true.ts",
-                        "constant.language.boolean.false.ts",
-                        "constant.language.boolean.true.js",
-                        "constant.language.boolean.false.js",
-                        "keyword.control.loop.ts",
-                        "keyword.control.loop.js"
-                    ],
-                    "settings": {
-                        "fontStyle": "italic"
-                    }
-                },
-            ]
         }
     },
     "editor.wordWrap": "wordWrapColumn",
@@ -1749,6 +1675,7 @@
     "ruff.configuration": "/Users/songdaehyeon/.config/ruff/ruff.toml",
     "mypy-type-checker.importStrategy": "fromEnvironment",
     "typescript.preferences.importModuleSpecifierEnding": "js",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
     "remote.SSH.remotePlatform": {
         "Heredot": "linux"
     },
@@ -1796,6 +1723,4 @@
     "prettier.printWidth": 150,
     "prettier.useEditorConfig": false,
     "explorer.confirmPasteNative": false,
-    "kiroAgent.enableTabAutocomplete": true,
-    "workbench.colorTheme": "Monospace Dark",
 }
