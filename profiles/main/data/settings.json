@@ -1675,7 +1675,7 @@
     "ruff.configuration": "/Users/songdaehyeon/.config/ruff/ruff.toml",
     "mypy-type-checker.importStrategy": "fromEnvironment",
     "typescript.preferences.importModuleSpecifierEnding": "js",
-    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.colorTheme": "Monospace Dark",
     "remote.SSH.remotePlatform": {
         "Heredot": "linux"
     },

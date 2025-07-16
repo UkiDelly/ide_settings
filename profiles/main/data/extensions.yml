@@ -1,3 +1,6 @@
+builtin:
+  disabled:
+    - undefined.cursor-themes
 disabled:
   - id: fabiospampinato.vscode-highlight
     uuid: 5471fe3e-315b-4c05-b41e-8bb493227c2e
@@ -13,11 +16,9 @@ enabled:
   - id: alefragnani.project-manager
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
   - id: Anthropic.claude-code
-    uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
+    uuid: null
   - id: Arjun.swagger-viewer
     uuid: cb9cc98b-7140-4f13-b993-1e26c4a7bd42
-  - id: batisteo.vscode-django
-    uuid: 4b41a5a8-170e-4156-b2c0-10efb270abbc
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
   - id: chamboug.js-auto-backticks
@@ -130,7 +131,5 @@ enabled:
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
-  - id: wholroyd.jinja
-    uuid: c941a679-d500-46a8-b2a9-208063125901
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
