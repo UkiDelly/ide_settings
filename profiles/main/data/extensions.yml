@@ -62,6 +62,8 @@ enabled:
     uuid: e1ab76b1-9acd-4ffa-baf7-1d9eaf7cf3d2
   - id: Gruntfuggly.todo-tree
     uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
+  - id: helgardrichard.helium-icon-theme
+    uuid: 235f4502-e288-45b4-a36c-3c0825d81e1b
   - id: hoovercj.vscode-power-mode
     uuid: a27ff63d-ff11-478d-b1ab-19aa1ef19882
   - id: icrawl.discord-vscode
@@ -72,12 +74,18 @@ enabled:
     uuid: 6e82a28d-b443-4629-830d-16942538a20b
   - id: keksiqc.idx-monospace-theme
     uuid: 1d94a5a9-1b7d-4087-a02f-1113032736a8
+  - id: kennylong.kubernetes-yaml-formatter
+    uuid: ff7ddaea-da15-4049-972f-4408841beffa
   - id: KevinRose.vsc-python-indent
     uuid: f3cbfb84-b1e1-40ff-b70f-877253461260
   - id: kisstkondoros.vscode-gutter-preview
     uuid: eedfd044-d5ac-4389-973d-3ac1fdb98ad5
+  - id: linbudu.pnpm-vscode-helper
+    uuid: d0f7550d-fdbb-4aee-bf0e-2a780430e161
   - id: mateocerquetella.xcode-12-theme
     uuid: 1b59a093-93c8-429e-a7d7-2a177cea4f47
+  - id: me-dutour-mathieu.vscode-github-actions
+    uuid: 8476972c-078a-45ba-8756-b8ce15669cb9
   - id: mechatroner.rainbow-csv
     uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
   - id: mhutchie.git-graph
@@ -88,6 +96,8 @@ enabled:
     uuid: 532533c9-a894-4a58-9eee-bbfbe7c06f71
   - id: monokai.theme-monokai-pro-vscode
     uuid: f5d7ffda-c1d6-4070-ba80-803c705a1ee6
+  - id: ms-azuretools.vscode-containers
+    uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: MS-CEINTL.vscode-language-pack-ko
     uuid: 7c15d326-cfdd-4932-9409-634b512daebe
   - id: ms-pyright.pyright
@@ -98,6 +108,8 @@ enabled:
     uuid: 2203dd65-f4f9-40ea-a900-d0878231c22d
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: ms-vscode-remote.remote-containers
+    uuid: 93ce222b-5f6f-49b7-9ab1-a0463c6238df
   - id: njpwerner.autodocstring
     uuid: 2d6fea35-f68e-461d-9b7b-5cd05be99451
   - id: oven.bun-vscode

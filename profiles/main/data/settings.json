@@ -1797,4 +1797,5 @@
     "prettier.useEditorConfig": false,
     "explorer.confirmPasteNative": false,
     "kiroAgent.enableTabAutocomplete": true,
+    "workbench.colorTheme": "Monospace Dark",
 }
