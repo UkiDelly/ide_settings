@@ -1108,7 +1108,8 @@
                         "meta.function-call.ts",
                         "entity.name.function.ts",
                         "variable.language.super.ts",
-                        "support.function.functional.prisma"
+                        "support.function.functional.prisma",
+                        "entity.name.decorator"
                     ],
                     "settings": {
                         "foreground": "#81C784",
@@ -1125,7 +1126,10 @@
                 {
                     "scope": [
                         "variable.other.property.js",
-                        "support.constant.constant.prisma"
+                        "support.constant.constant.prisma",
+                        "meta.member.access.python",
+                        "meta.attribute.python",
+                        "variable.parameter.function-call.python"
                     ],
                     "settings": {
                         "foreground": "#FFC093",
@@ -1675,7 +1679,6 @@
     "ruff.configuration": "/Users/songdaehyeon/.config/ruff/ruff.toml",
     "mypy-type-checker.importStrategy": "fromEnvironment",
     "typescript.preferences.importModuleSpecifierEnding": "js",
-    "workbench.colorTheme": "Monospace Dark",
     "remote.SSH.remotePlatform": {
         "Heredot": "linux"
     },
@@ -1723,4 +1726,17 @@
     "prettier.printWidth": 150,
     "prettier.useEditorConfig": false,
     "explorer.confirmPasteNative": false,
+    "python.languageServer": "None",
+    "cursorpyright.analysis.autoImportCompletions": true,
+    "cursorpyright.analysis.diagnosticMode": "workspace",
+    "cursorpyright.analysis.diagnosticSeverityOverrides": {
+        "reportGeneralTypeIssues": "none",
+        "reportOptionalMemberAccess": "none"
+    },
+    "cursorpyright.analysis.inlayHints.callArgumentNames": "all",
+    "cursorpyright.analysis.inlayHints.functionReturnTypes": true,
+    "cursorpyright.analysis.inlayHints.variableTypes": true,
+    "cursorpyright.analysis.logLevel": "Warning",
+    "cursorpyright.analysis.typeCheckingMode": "off",
+    "workbench.colorTheme": "Xcode Classic (Dark)",
 }

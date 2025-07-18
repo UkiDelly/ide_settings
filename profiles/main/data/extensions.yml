@@ -2,8 +2,12 @@ builtin:
   disabled:
     - undefined.cursor-themes
 disabled:
+  - id: charliermarsh.ruff
+    uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
   - id: fabiospampinato.vscode-highlight
     uuid: 5471fe3e-315b-4c05-b41e-8bb493227c2e
+  - id: ms-python.mypy-type-checker
+    uuid: 2203dd65-f4f9-40ea-a900-d0878231c22d
 enabled:
   - id: 1nVitr0.invert-if
     uuid: 4851d01a-8ac3-4a4d-9ad7-2c91cdf76240
@@ -17,14 +21,14 @@ enabled:
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
   - id: Anthropic.claude-code
     uuid: null
+  - id: anysphere.cursorpyright
+    uuid: d7f9f831-2239-4783-9d06-18d27f285818
   - id: Arjun.swagger-viewer
     uuid: cb9cc98b-7140-4f13-b993-1e26c4a7bd42
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
   - id: chamboug.js-auto-backticks
     uuid: 89454707-ebf2-4d40-b9b9-c3ed09083889
-  - id: charliermarsh.ruff
-    uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
   - id: christian-kohler.npm-intellisense
     uuid: dff6b801-247e-40e9-82e8-8c9b1d19d1b8
   - id: christian-kohler.path-intellisense
@@ -103,12 +107,8 @@ enabled:
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
   - id: MS-CEINTL.vscode-language-pack-ko
     uuid: 7c15d326-cfdd-4932-9409-634b512daebe
-  - id: ms-pyright.pyright
-    uuid: 593fe6a5-513e-4cb3-abfb-5b9f5fe39802
   - id: ms-python.debugpy
     uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
-  - id: ms-python.mypy-type-checker
-    uuid: 2203dd65-f4f9-40ea-a900-d0878231c22d
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-vscode-remote.remote-containers
