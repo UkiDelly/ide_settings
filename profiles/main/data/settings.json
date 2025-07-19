@@ -1680,7 +1680,9 @@
     "mypy-type-checker.importStrategy": "fromEnvironment",
     "typescript.preferences.importModuleSpecifierEnding": "js",
     "remote.SSH.remotePlatform": {
-        "Heredot": "linux"
+        "Heredot": "linux",
+        "Heredot_homepage": "linux",
+        "Rebling": "linux"
     },
     "errorLens.fontWeight": "500",
     "highlight.decorations": {
