@@ -1,6 +1,3 @@
-builtin:
-  disabled:
-    - undefined.cursor-themes
 disabled:
   - id: charliermarsh.ruff
     uuid: c2ca9b43-fa38-44fc-928e-5125970b9c00
@@ -20,13 +17,7 @@ enabled:
   - id: alefragnani.project-manager
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
   - id: Anthropic.claude-code
-    uuid: null
-  - id: anysphere.cursorpyright
-    uuid: d7f9f831-2239-4783-9d06-18d27f285818
-  - id: anysphere.remote-containers
-    uuid: 94d8b289-9db0-4c3c-b4f3-a3294c789678
-  - id: anysphere.remote-ssh
-    uuid: 73a45d83-83c7-4b22-bebf-c9130b0ab3f3
+    uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
   - id: Arjun.swagger-viewer
     uuid: cb9cc98b-7140-4f13-b993-1e26c4a7bd42
   - id: bradlc.vscode-tailwindcss

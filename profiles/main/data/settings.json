@@ -1741,5 +1741,5 @@
     "cursorpyright.analysis.inlayHints.variableTypes": true,
     "cursorpyright.analysis.logLevel": "Warning",
     "cursorpyright.analysis.typeCheckingMode": "off",
-    "workbench.colorTheme": "Monokai Pro",
+    "workbench.colorTheme": "Xcode Classic (Dark)",
 }
