@@ -638,7 +638,8 @@
                 },
                 {
                     "scope": [
-                        "variable.other.object.ts"
+                        "variable.other.object.ts",
+                        "variable.other.constant.ts"
                     ],
                     "settings": {
                         "foreground": "#D9DFE7",
