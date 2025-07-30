@@ -100,19 +100,20 @@
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "workbench.tree.enableStickyScroll": true,
     "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
         "source.addMissingImports.ts": "always",
-        "source.organizeImports": "explicit",
-        "source.removeUnusedImports": "explicit",
+        "source.organizeImports": "always",
+        "source.removeUnusedImports": "always",
         "source.fixAll": "always"
     },
     "source.organizeImports": "explicit",
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'Victor Mono', 'Cascadia Code NF', 'CaskaydiaCove Nerd Font Mono', 'Ligalex Mono', 'Jetbrains Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'D2CodingLigature Nerd Font','Victor Mono', 'Cascadia Code NF', 'CaskaydiaCove Nerd Font Mono', 'Ligalex Mono', 'Jetbrains Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20','calt', 'ss01'",
     "editor.fontSize": 16,
-    "editor.fontWeight": "600",
+    "editor.fontWeight": "500",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -519,11 +520,23 @@
             "keywords": "#FF74B1"
         },
         "[Xcode Classic (Dark)]": {
+            "functions": "#81C784",
+            "keywords": "#FF7AB2",
             "textMateRules": [
                 {
                     "scope": [
+                        "meta.function-call.arguments.python",
+                    ],
+                    "settings": {
+                        "foreground": "#D9DFE7",
+                    }
+                },
+                {
+                    "scope": [
                         "support.class.dart",
-                        "support.type.primitive.ts"
+                        "support.type.primitive.ts",
+                        "meta.indexed-name.python",
+                        "meta.function-call.generic.python"
                     ],
                     "settings": {
                         "fontStyle": "",
@@ -559,7 +572,11 @@
                         "keyword.operator.logical.ts",
                         "keyword.operator.comparison.ts",
                         "keyword.operator.expression.import.ts",
-                        "keyword.operator.expression.typeof.ts"
+                        "keyword.operator.expression.typeof.ts",
+                        "storage.type.function.python",
+                        "storage.type.function.async.python",
+                        "storage.type.function.await.python",
+                        "storage.type.class.python",
                     ],
                     "settings": {
                         "fontStyle": "italic bold",
@@ -569,7 +586,9 @@
                 {
                     "scope": [
                         "entity.other.attribute-name.html",
-                        "support.type.property-name.css"
+                        "support.type.property-name.css",
+                        "meta.item-access.python",
+                        "meta.member.access.python"
                     ],
                     "settings": {
                         "fontStyle": "",
@@ -630,7 +649,19 @@
                 },
                 {
                     "scope": [
-                        "entity.name.function.ts"
+                        "entity.name.function.decorator.python",
+                    ],
+                    "settings": {
+                        "foreground": "#81C784",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.function.ts",
+                        "entity.name.function.python",
+                        "support.function.builtin.python",
+                        "meta.function-call.generic.python",
                     ],
                     "settings": {
                         "foreground": "#81C784",
@@ -639,7 +670,8 @@
                 {
                     "scope": [
                         "variable.other.object.ts",
-                        "variable.other.constant.ts"
+                        "variable.other.constant.ts",
+                        "meta.fstring.python"
                     ],
                     "settings": {
                         "foreground": "#D9DFE7",
@@ -1598,7 +1630,6 @@
     "pyright.disableOrganizeImports": false,
     "editor.inlayHints.enabled": "on",
     "diffEditor.wordWrap": "on",
-    "editor.guides.indentation": true,
     "better-yaml.indentSeq": true,
     "pythonIndent.trimLinesWithOnlyWhitespace": true,
     "ruff.enable": true,
@@ -1742,4 +1773,7 @@
     "cursorpyright.analysis.logLevel": "Warning",
     "cursorpyright.analysis.typeCheckingMode": "off",
     "workbench.colorTheme": "Xcode Classic (Dark)",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.autoIndentOnPaste": true,
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
 }
