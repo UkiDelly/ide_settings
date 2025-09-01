@@ -1346,7 +1346,8 @@
         "**/.fvm": true,
         "**/.venv": true,
         "**/*.freezed.dart": true,
-        "**/*.g.dart": true
+        "**/*.g.dart": true,
+        "**/dist": true
     },
     "security.workspace.trust.untrustedFiles": "open",
     "settingsSync.ignoredSettings": [],
@@ -1710,7 +1711,7 @@
     "dbcode.resultLocation": "panel",
     "ruff.configuration": "/Users/songdaehyeon/.config/ruff/ruff.toml",
     "mypy-type-checker.importStrategy": "fromEnvironment",
-    "typescript.preferences.importModuleSpecifierEnding": "js",
+    "typescript.preferences.importModuleSpecifierEnding": "minimal",
     "remote.SSH.remotePlatform": {
         "Heredot": "linux",
         "Heredot_homepage": "linux",
@@ -1755,7 +1756,6 @@
     "todo-tree.general.showActivityBarBadge": true,
     "todo-tree.highlights.defaultHighlight": {},
     "material-icon-theme.activeIconPack": "nest",
-    "javascript.preferences.importModuleSpecifierEnding": "js",
     "cursor.composer.shouldChimeAfterChatFinishes": true,
     "prettier.printWidth": 150,
     "prettier.useEditorConfig": false,
@@ -1776,4 +1776,6 @@
     "github.copilot.nextEditSuggestions.enabled": true,
     "editor.autoIndentOnPaste": true,
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "diffEditor.codeLens": true,
+    "javascript.preferences.importModuleSpecifierEnding": "minimal",
 }

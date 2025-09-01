@@ -32,6 +32,8 @@ enabled:
     uuid: f6c3ec04-6057-4d9c-b997-69cba07a6158
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
+  - id: eamodio.gitlens
+    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: evondev.indent-rainbow-palettes
@@ -60,6 +62,10 @@ enabled:
     uuid: 235f4502-e288-45b4-a36c-3c0825d81e1b
   - id: hoovercj.vscode-power-mode
     uuid: a27ff63d-ff11-478d-b1ab-19aa1ef19882
+  - id: idered.npm
+    uuid: 8ccfd385-8bd1-48a1-b024-1595802154fd
+  - id: inferrinizzard.prettier-sql-vscode
+    uuid: 386997b1-f715-42f5-91e4-618a439c19b8
   - id: jdinhlife.gruvbox
     uuid: c6d564c4-ca8c-45ba-abf6-c85f2d1468d8
   - id: joseavr.code-scope-highlighter
@@ -126,6 +132,8 @@ enabled:
     uuid: 33ce9d6b-41cf-4972-a62b-386f7201981d
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+  - id: Redis.redis-for-vscode
+    uuid: 87d0bce0-e306-4854-ac9a-823266e68e07
   - id: SpaceBox.monospace-idx-theme
     uuid: a28e22ca-09ce-4549-bb96-f088e02d8706
   - id: tamasfe.even-better-toml
@@ -136,5 +144,7 @@ enabled:
     uuid: 9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3
   - id: VisualStudioExptTeam.vscodeintellicode
     uuid: 876e8f93-74d0-4f4f-91b7-34a09f19f444
+  - id: william-voyek.vscode-nginx
+    uuid: 414b2873-c80e-4dc6-9031-bd185cfb3944
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
