@@ -1,3 +1,6 @@
+builtin:
+  disabled:
+    - undefined.cursor-themes
 disabled: []
 enabled:
   - id: 1nVitr0.invert-if
@@ -12,6 +15,12 @@ enabled:
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
   - id: Anthropic.claude-code
     uuid: 3c13ae49-babe-45fe-8c48-5e45077a62bf
+  - id: anysphere.cursorpyright
+    uuid: d7f9f831-2239-4783-9d06-18d27f285818
+  - id: anysphere.remote-containers
+    uuid: 94d8b289-9db0-4c3c-b4f3-a3294c789678
+  - id: anysphere.remote-ssh
+    uuid: 73a45d83-83c7-4b22-bebf-c9130b0ab3f3
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
   - id: chamboug.js-auto-backticks
@@ -32,6 +41,8 @@ enabled:
     uuid: f6c3ec04-6057-4d9c-b997-69cba07a6158
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
+  - id: donjayamanne.python-extension-pack
+    uuid: f5188937-53e0-45bb-a16d-61231003fa3b
   - id: eamodio.gitlens
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: esbenp.prettier-vscode
@@ -44,10 +55,6 @@ enabled:
     uuid: d3836729-9cc1-42c1-b2af-d50071f57d29
   - id: formulahendry.auto-rename-tag
     uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
-  - id: GitHub.copilot
-    uuid: 23c4aeee-f844-43cd-b53e-1113e483f1a6
-  - id: GitHub.copilot-chat
-    uuid: 7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f
   - id: github.vscode-github-actions
     uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
   - id: GitHub.vscode-pull-request-github
@@ -64,6 +71,10 @@ enabled:
     uuid: a27ff63d-ff11-478d-b1ab-19aa1ef19882
   - id: idered.npm
     uuid: 8ccfd385-8bd1-48a1-b024-1595802154fd
+  - id: imgildev.vscode-nestjs-generator
+    uuid: 12c6ea5e-c0db-439e-b4fb-dc46f0f54371
+  - id: imgildev.vscode-nestjs-snippets-extension
+    uuid: 1eb3d8b5-f550-4df3-9001-bccf047b6b72
   - id: inferrinizzard.prettier-sql-vscode
     uuid: 386997b1-f715-42f5-91e4-618a439c19b8
   - id: jdinhlife.gruvbox
@@ -96,6 +107,8 @@ enabled:
     uuid: f5d7ffda-c1d6-4070-ba80-803c705a1ee6
   - id: ms-azuretools.vscode-containers
     uuid: 2cd1d691-3d69-4d2d-ae39-fda4bc4cfd3d
+  - id: ms-azuretools.vscode-docker
+    uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
   - id: MS-CEINTL.vscode-language-pack-ko
     uuid: 7c15d326-cfdd-4932-9409-634b512daebe
   - id: ms-kubernetes-tools.vscode-kubernetes-tools
@@ -106,14 +119,6 @@ enabled:
     uuid: 2203dd65-f4f9-40ea-a900-d0878231c22d
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
-  - id: ms-python.vscode-pylance
-    uuid: 364d2426-116a-433a-a5d8-a5098dc3afbd
-  - id: ms-python.vscode-python-envs
-    uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
-  - id: ms-vscode-remote.remote-containers
-    uuid: 93ce222b-5f6f-49b7-9ab1-a0463c6238df
-  - id: ms-vscode-remote.remote-ssh
-    uuid: 607fd052-be03-4363-b657-2bd62b83d28a
   - id: ms-vscode-remote.remote-ssh-edit
     uuid: bfeaf631-bcff-4908-93ed-fda4ef9a0c5c
   - id: ms-vscode.remote-explorer
@@ -146,5 +151,7 @@ enabled:
     uuid: 876e8f93-74d0-4f4f-91b7-34a09f19f444
   - id: william-voyek.vscode-nginx
     uuid: 414b2873-c80e-4dc6-9031-bd185cfb3944
+  - id: YoavBls.pretty-ts-errors
+    uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

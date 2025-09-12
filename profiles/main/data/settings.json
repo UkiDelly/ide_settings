@@ -110,10 +110,10 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'D2CodingLigature Nerd Font','Victor Mono', 'Cascadia Code NF', 'CaskaydiaCove Nerd Font Mono', 'Ligalex Mono', 'Jetbrains Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Jetbrains Mono', 'Ligalex Mono','D2CodingLigature Nerd Font','Victor Mono', 'Cascadia Code NF', 'CaskaydiaCove Nerd Font Mono', 'Ligalex Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20','calt', 'ss01'",
-    "editor.fontSize": 16,
-    "editor.fontWeight": "500",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "600",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -277,7 +277,6 @@
         "[Cursor Dark]": {
             "enabled": true,
             "rules": {
-                // "parameter": "#F3C1FF",
                 "property": "#E6C587",
                 "variable": "#D6D6DD",
                 "class": "#87C3FF",
@@ -525,10 +524,10 @@
             "textMateRules": [
                 {
                     "scope": [
-                        "meta.function-call.arguments.python",
+                        "meta.function-call.arguments.python"
                     ],
                     "settings": {
-                        "foreground": "#D9DFE7",
+                        "foreground": "#D9DFE7"
                     }
                 },
                 {
@@ -576,7 +575,7 @@
                         "storage.type.function.python",
                         "storage.type.function.async.python",
                         "storage.type.function.await.python",
-                        "storage.type.class.python",
+                        "storage.type.class.python"
                     ],
                     "settings": {
                         "fontStyle": "italic bold",
@@ -649,7 +648,7 @@
                 },
                 {
                     "scope": [
-                        "entity.name.function.decorator.python",
+                        "entity.name.function.decorator.python"
                     ],
                     "settings": {
                         "foreground": "#81C784",
@@ -661,10 +660,10 @@
                         "entity.name.function.ts",
                         "entity.name.function.python",
                         "support.function.builtin.python",
-                        "meta.function-call.generic.python",
+                        "meta.function-call.generic.python"
                     ],
                     "settings": {
-                        "foreground": "#81C784",
+                        "foreground": "#81C784"
                     }
                 },
                 {
@@ -674,7 +673,7 @@
                         "meta.fstring.python"
                     ],
                     "settings": {
-                        "foreground": "#D9DFE7",
+                        "foreground": "#D9DFE7"
                     }
                 },
                 {
@@ -686,10 +685,10 @@
                         "punctuation.definition.comment.yaml"
                     ],
                     "settings": {
-                        "foreground": "#A3A3A3",
+                        "foreground": "#A3A3A3"
                     }
                 }
-            ],
+            ]
         },
         "[Gruvbox Dark Hard]": {
             "textMateRules": [
@@ -781,7 +780,6 @@
         "[Gruvbox Dark Medium]": {
             "textMateRules": [
                 {
-                    // this, self
                     "scope": [
                         "variable.language.this.js",
                         "variable.language.this.ts",
@@ -793,7 +791,6 @@
                     }
                 },
                 {
-                    // 키워드
                     "scope": [
                         "storage.type.function.python",
                         "meta.function.python",
@@ -823,14 +820,13 @@
                         "keyword.control.default.tsx",
                         "storage.type.function.async.python",
                         "keyword.operator.new.ts",
-                        "keyword.operator.new.js",
+                        "keyword.operator.new.js"
                     ],
                     "settings": {
                         "fontStyle": "italic"
                     }
                 },
                 {
-                    // 키워드 2
                     "scope": [
                         "storage.type.function.tsx",
                         "storage.type.tsx",
@@ -845,14 +841,13 @@
                         "storage.modifier.async.ts",
                         "storage.modifier.async.js",
                         "storage.modifier.await.ts",
-                        "storage.modifier.await.js",
+                        "storage.modifier.await.js"
                     ],
                     "settings": {
                         "fontStyle": "italic"
                     }
                 },
                 {
-                    // 클래스
                     "scope": [
                         "support.class.component.tsx",
                         "entity.name.tag.tsx"
@@ -862,7 +857,6 @@
                     }
                 },
                 {
-                    // param
                     "scope": [
                         "entity.other.attribute-name.tsx"
                     ],
@@ -872,7 +866,6 @@
                     }
                 },
                 {
-                    // import문에 있는 모듈 이름
                     "scope": [
                         "variable.other.readwrite.alias.tsx",
                         "variable.other.object.tsx",
@@ -882,7 +875,7 @@
                         "variable.other.object.js"
                     ],
                     "settings": {
-                        "foreground": "#EBDBB2",
+                        "foreground": "#EBDBB2"
                     }
                 },
                 {
@@ -998,7 +991,7 @@
                         "constant.character.format.placeholder.other.python"
                     ],
                     "settings": {
-                        "foreground": "#FF6188",
+                        "foreground": "#FF6188"
                     }
                 },
                 {
@@ -1006,7 +999,7 @@
                         "support.type.property-name.json.comments"
                     ],
                     "settings": {
-                        "foreground": "#81C784",
+                        "foreground": "#81C784"
                     }
                 },
                 {
@@ -1014,7 +1007,7 @@
                         "variable.other.property.js"
                     ],
                     "settings": {
-                        "foreground": "#FFC093",
+                        "foreground": "#FFC093"
                     }
                 }
             ]
@@ -1062,8 +1055,7 @@
                         "support.class.component.tsx"
                     ],
                     "settings": {
-                        "foreground": "#78DCE8",
-                        // "fontStyle": "italic"
+                        "foreground": "#78DCE8"
                     }
                 },
                 {
@@ -1119,7 +1111,7 @@
                         "constant.language.boolean.true.ts",
                         "constant.language.boolean.false.ts",
                         "constant.language.boolean.true.js",
-                        "constant.language.boolean.false.js",
+                        "constant.language.boolean.false.js"
                     ],
                     "settings": {
                         "foreground": "#FD8DA3",
@@ -1128,10 +1120,10 @@
                 },
                 {
                     "scope": [
-                        "entity.name.function.attribute.prisma",
+                        "entity.name.function.attribute.prisma"
                     ],
                     "settings": {
-                        "foreground": "#FD8DA3",
+                        "foreground": "#FD8DA3"
                     }
                 },
                 {
@@ -1145,7 +1137,7 @@
                         "entity.name.decorator"
                     ],
                     "settings": {
-                        "foreground": "#81C784",
+                        "foreground": "#81C784"
                     }
                 },
                 {
@@ -1165,16 +1157,9 @@
                         "variable.parameter.function-call.python"
                     ],
                     "settings": {
-                        "foreground": "#FFC093",
+                        "foreground": "#FFC093"
                     }
                 }
-                // {
-                //     "scope":[""],
-                //     "settings": {
-                //         "foreground": "#D9DFE7",
-                //         "fontStyle": "italic"
-                //     }
-                // }
             ]
         },
         "[Cursor Dark]": {
@@ -1184,7 +1169,7 @@
                         "variable.other.property.js"
                     ],
                     "settings": {
-                        "foreground": "#E6C587",
+                        "foreground": "#E6C587"
                     }
                 },
                 {
@@ -1715,7 +1700,11 @@
     "remote.SSH.remotePlatform": {
         "Heredot": "linux",
         "Heredot_homepage": "linux",
-        "Rebling": "linux"
+        "Rebling": "linux",
+        "Link9PayServer": "linux",
+        "Aigo": "linux",
+        "ChungchunClean": "linux",
+        "Link9": "linux"
     },
     "errorLens.fontWeight": "500",
     "highlight.decorations": {
@@ -1760,7 +1749,7 @@
     "prettier.printWidth": 150,
     "prettier.useEditorConfig": false,
     "explorer.confirmPasteNative": false,
-    "python.languageServer": "None",
+    "python.languageServer": "Default",
     "cursorpyright.analysis.autoImportCompletions": true,
     "cursorpyright.analysis.diagnosticMode": "workspace",
     "cursorpyright.analysis.diagnosticSeverityOverrides": {
@@ -1777,5 +1766,5 @@
     "editor.autoIndentOnPaste": true,
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
     "diffEditor.codeLens": true,
-    "javascript.preferences.importModuleSpecifierEnding": "minimal",
+    "javascript.preferences.importModuleSpecifierEnding": "minimal"
 }
