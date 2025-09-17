@@ -110,9 +110,9 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'Jetbrains Mono', 'Ligalex Mono','D2CodingLigature Nerd Font','Victor Mono', 'Cascadia Code NF', 'CaskaydiaCove Nerd Font Mono', 'Ligalex Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Victor Mono','D2CodingLigature Nerd Font', 'Jetbrains Mono', 'Ligalex Mono','Cascadia Code NF', 'CaskaydiaCove Nerd Font Mono', 'Ligalex Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20','calt', 'ss01'",
-    "editor.fontSize": 15,
+    "editor.fontSize": 16,
     "editor.fontWeight": "600",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -1704,7 +1704,8 @@
         "Link9PayServer": "linux",
         "Aigo": "linux",
         "ChungchunClean": "linux",
-        "Link9": "linux"
+        "Link9": "linux",
+        "HeredotHomepage": "linux"
     },
     "errorLens.fontWeight": "500",
     "highlight.decorations": {
@@ -1749,7 +1750,7 @@
     "prettier.printWidth": 150,
     "prettier.useEditorConfig": false,
     "explorer.confirmPasteNative": false,
-    "python.languageServer": "Default",
+    "python.languageServer": "None",
     "cursorpyright.analysis.autoImportCompletions": true,
     "cursorpyright.analysis.diagnosticMode": "workspace",
     "cursorpyright.analysis.diagnosticSeverityOverrides": {
@@ -1761,7 +1762,7 @@
     "cursorpyright.analysis.inlayHints.variableTypes": true,
     "cursorpyright.analysis.logLevel": "Warning",
     "cursorpyright.analysis.typeCheckingMode": "off",
-    "workbench.colorTheme": "Xcode Classic (Dark)",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
     "github.copilot.nextEditSuggestions.enabled": true,
     "editor.autoIndentOnPaste": true,
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
