@@ -110,9 +110,10 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'Victor Mono','D2CodingLigature Nerd Font', 'Jetbrains Mono', 'Ligalex Mono','Cascadia Code NF', 'CaskaydiaCove Nerd Font Mono', 'Ligalex Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20','calt', 'ss01'",
-    "editor.fontSize": 16,
+    "editor.fontFamily": "'Jetbrains Mono','Ligalex Mono','CaskaydiaCove Nerd Font Mono','Victor Mono','D2CodingLigature Nerd Font',  'Cascadia Code NF',  'Ligalex Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20','calt', 'ss01'",
+    "editor.fontLigatures": "true",
+    "editor.fontSize": 14,
     "editor.fontWeight": "600",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -1767,5 +1768,7 @@
     "editor.autoIndentOnPaste": true,
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
     "diffEditor.codeLens": true,
-    "javascript.preferences.importModuleSpecifierEnding": "minimal"
+    "javascript.preferences.importModuleSpecifierEnding": "minimal",
+    "cursor.composer.queueMessageDefaultBehavior": "queue",
+    "cursor.composer.usageSummaryDisplay": "always",
 }

@@ -143,6 +143,8 @@ enabled:
     uuid: a28e22ca-09ce-4549-bb96-f088e02d8706
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
+  - id: tomoki1207.pdf
+    uuid: 6db08635-0c6a-45ba-9a4b-8c3e192c63c2
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: VisualStudioExptTeam.intellicode-api-usage-examples
