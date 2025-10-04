@@ -82,7 +82,7 @@
     "dart.flutterCustomEmulators": [],
     "dart.flutterHotReloadOnSave": "allIfDirty",
     "dart.flutterRunLogFile": null,
-    "dart.flutterSdkPath": "/Users/songdaehyeon/fvm/default/bin",
+    "dart.flutterSdkPath": "/Users/delly/fvm/versions/stable",
     "dart.flutterSdkPaths": [
         ".fvm/flutter_sdk"
     ],
@@ -100,20 +100,18 @@
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "workbench.tree.enableStickyScroll": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit",
         "source.addMissingImports.ts": "always",
-        "source.organizeImports": "always",
-        "source.removeUnusedImports": "always",
+        "source.organizeImports": "explicit",
+        "source.removeUnusedImports": "explicit",
         "source.fixAll": "always"
     },
     "source.organizeImports": "explicit",
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'Jetbrains Mono','Ligalex Mono','CaskaydiaCove Nerd Font Mono','Victor Mono','D2CodingLigature Nerd Font',  'Cascadia Code NF',  'Ligalex Mono', 'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
-    // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20','calt', 'ss01'",
-    "editor.fontLigatures": "true",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "'Jetbrains Mono','Victor Mono', 'Cascadia Code NF', 'CaskaydiaCove Nerd Font Mono', 'Ligalex Mono',  'D2Coding ligature', 'FiraCode Nerd Font Mono', 'SF Mono', 'Iosevka Term Medium Extended', 'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20','calt', 'ss01'",
+    "editor.fontSize": 16,
     "editor.fontWeight": "600",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -278,6 +276,7 @@
         "[Cursor Dark]": {
             "enabled": true,
             "rules": {
+                // "parameter": "#F3C1FF",
                 "property": "#E6C587",
                 "variable": "#D6D6DD",
                 "class": "#87C3FF",
@@ -520,23 +519,11 @@
             "keywords": "#FF74B1"
         },
         "[Xcode Classic (Dark)]": {
-            "functions": "#81C784",
-            "keywords": "#FF7AB2",
             "textMateRules": [
                 {
                     "scope": [
-                        "meta.function-call.arguments.python"
-                    ],
-                    "settings": {
-                        "foreground": "#D9DFE7"
-                    }
-                },
-                {
-                    "scope": [
                         "support.class.dart",
-                        "support.type.primitive.ts",
-                        "meta.indexed-name.python",
-                        "meta.function-call.generic.python"
+                        "support.type.primitive.ts"
                     ],
                     "settings": {
                         "fontStyle": "",
@@ -572,11 +559,7 @@
                         "keyword.operator.logical.ts",
                         "keyword.operator.comparison.ts",
                         "keyword.operator.expression.import.ts",
-                        "keyword.operator.expression.typeof.ts",
-                        "storage.type.function.python",
-                        "storage.type.function.async.python",
-                        "storage.type.function.await.python",
-                        "storage.type.class.python"
+                        "keyword.operator.expression.typeof.ts"
                     ],
                     "settings": {
                         "fontStyle": "italic bold",
@@ -586,9 +569,7 @@
                 {
                     "scope": [
                         "entity.other.attribute-name.html",
-                        "support.type.property-name.css",
-                        "meta.item-access.python",
-                        "meta.member.access.python"
+                        "support.type.property-name.css"
                     ],
                     "settings": {
                         "fontStyle": "",
@@ -649,32 +630,18 @@
                 },
                 {
                     "scope": [
-                        "entity.name.function.decorator.python"
+                        "entity.name.function.ts"
                     ],
                     "settings": {
                         "foreground": "#81C784",
-                        "fontStyle": "italic"
                     }
                 },
                 {
                     "scope": [
-                        "entity.name.function.ts",
-                        "entity.name.function.python",
-                        "support.function.builtin.python",
-                        "meta.function-call.generic.python"
+                        "variable.other.object.ts"
                     ],
                     "settings": {
-                        "foreground": "#81C784"
-                    }
-                },
-                {
-                    "scope": [
-                        "variable.other.object.ts",
-                        "variable.other.constant.ts",
-                        "meta.fstring.python"
-                    ],
-                    "settings": {
-                        "foreground": "#D9DFE7"
+                        "foreground": "#D9DFE7",
                     }
                 },
                 {
@@ -686,10 +653,10 @@
                         "punctuation.definition.comment.yaml"
                     ],
                     "settings": {
-                        "foreground": "#A3A3A3"
+                        "foreground": "#A3A3A3",
                     }
                 }
-            ]
+            ],
         },
         "[Gruvbox Dark Hard]": {
             "textMateRules": [
@@ -781,6 +748,7 @@
         "[Gruvbox Dark Medium]": {
             "textMateRules": [
                 {
+                    // this, self
                     "scope": [
                         "variable.language.this.js",
                         "variable.language.this.ts",
@@ -792,6 +760,7 @@
                     }
                 },
                 {
+                    // 키워드
                     "scope": [
                         "storage.type.function.python",
                         "meta.function.python",
@@ -821,13 +790,14 @@
                         "keyword.control.default.tsx",
                         "storage.type.function.async.python",
                         "keyword.operator.new.ts",
-                        "keyword.operator.new.js"
+                        "keyword.operator.new.js",
                     ],
                     "settings": {
                         "fontStyle": "italic"
                     }
                 },
                 {
+                    // 키워드 2
                     "scope": [
                         "storage.type.function.tsx",
                         "storage.type.tsx",
@@ -842,13 +812,14 @@
                         "storage.modifier.async.ts",
                         "storage.modifier.async.js",
                         "storage.modifier.await.ts",
-                        "storage.modifier.await.js"
+                        "storage.modifier.await.js",
                     ],
                     "settings": {
                         "fontStyle": "italic"
                     }
                 },
                 {
+                    // 클래스
                     "scope": [
                         "support.class.component.tsx",
                         "entity.name.tag.tsx"
@@ -858,6 +829,7 @@
                     }
                 },
                 {
+                    // param
                     "scope": [
                         "entity.other.attribute-name.tsx"
                     ],
@@ -867,6 +839,7 @@
                     }
                 },
                 {
+                    // import문에 있는 모듈 이름
                     "scope": [
                         "variable.other.readwrite.alias.tsx",
                         "variable.other.object.tsx",
@@ -876,7 +849,7 @@
                         "variable.other.object.js"
                     ],
                     "settings": {
-                        "foreground": "#EBDBB2"
+                        "foreground": "#EBDBB2",
                     }
                 },
                 {
@@ -992,7 +965,7 @@
                         "constant.character.format.placeholder.other.python"
                     ],
                     "settings": {
-                        "foreground": "#FF6188"
+                        "foreground": "#FF6188",
                     }
                 },
                 {
@@ -1000,7 +973,7 @@
                         "support.type.property-name.json.comments"
                     ],
                     "settings": {
-                        "foreground": "#81C784"
+                        "foreground": "#81C784",
                     }
                 },
                 {
@@ -1008,7 +981,7 @@
                         "variable.other.property.js"
                     ],
                     "settings": {
-                        "foreground": "#FFC093"
+                        "foreground": "#FFC093",
                     }
                 }
             ]
@@ -1056,7 +1029,8 @@
                         "support.class.component.tsx"
                     ],
                     "settings": {
-                        "foreground": "#78DCE8"
+                        "foreground": "#78DCE8",
+                        // "fontStyle": "italic"
                     }
                 },
                 {
@@ -1112,7 +1086,7 @@
                         "constant.language.boolean.true.ts",
                         "constant.language.boolean.false.ts",
                         "constant.language.boolean.true.js",
-                        "constant.language.boolean.false.js"
+                        "constant.language.boolean.false.js",
                     ],
                     "settings": {
                         "foreground": "#FD8DA3",
@@ -1121,10 +1095,10 @@
                 },
                 {
                     "scope": [
-                        "entity.name.function.attribute.prisma"
+                        "entity.name.function.attribute.prisma",
                     ],
                     "settings": {
-                        "foreground": "#FD8DA3"
+                        "foreground": "#FD8DA3",
                     }
                 },
                 {
@@ -1138,7 +1112,7 @@
                         "entity.name.decorator"
                     ],
                     "settings": {
-                        "foreground": "#81C784"
+                        "foreground": "#81C784",
                     }
                 },
                 {
@@ -1158,9 +1132,16 @@
                         "variable.parameter.function-call.python"
                     ],
                     "settings": {
-                        "foreground": "#FFC093"
+                        "foreground": "#FFC093",
                     }
                 }
+                // {
+                //     "scope":[""],
+                //     "settings": {
+                //         "foreground": "#D9DFE7",
+                //         "fontStyle": "italic"
+                //     }
+                // }
             ]
         },
         "[Cursor Dark]": {
@@ -1170,7 +1151,7 @@
                         "variable.other.property.js"
                     ],
                     "settings": {
-                        "foreground": "#E6C587"
+                        "foreground": "#E6C587",
                     }
                 },
                 {
@@ -1332,8 +1313,7 @@
         "**/.fvm": true,
         "**/.venv": true,
         "**/*.freezed.dart": true,
-        "**/*.g.dart": true,
-        "**/dist": true
+        "**/*.g.dart": true
     },
     "security.workspace.trust.untrustedFiles": "open",
     "settingsSync.ignoredSettings": [],
@@ -1617,6 +1597,7 @@
     "pyright.disableOrganizeImports": false,
     "editor.inlayHints.enabled": "on",
     "diffEditor.wordWrap": "on",
+    "editor.guides.indentation": true,
     "better-yaml.indentSeq": true,
     "pythonIndent.trimLinesWithOnlyWhitespace": true,
     "ruff.enable": true,
@@ -1702,11 +1683,8 @@
         "Heredot": "linux",
         "Heredot_homepage": "linux",
         "Rebling": "linux",
-        "Link9PayServer": "linux",
         "Aigo": "linux",
-        "ChungchunClean": "linux",
-        "Link9": "linux",
-        "HeredotHomepage": "linux"
+        "Heredot-homepage": "linux"
     },
     "errorLens.fontWeight": "500",
     "highlight.decorations": {
@@ -1747,6 +1725,7 @@
     "todo-tree.general.showActivityBarBadge": true,
     "todo-tree.highlights.defaultHighlight": {},
     "material-icon-theme.activeIconPack": "nest",
+    "javascript.preferences.importModuleSpecifierEnding": "minimal",
     "cursor.composer.shouldChimeAfterChatFinishes": true,
     "prettier.printWidth": 150,
     "prettier.useEditorConfig": false,
@@ -1764,11 +1743,20 @@
     "cursorpyright.analysis.logLevel": "Warning",
     "cursorpyright.analysis.typeCheckingMode": "off",
     "workbench.colorTheme": "Gruvbox Dark Medium",
-    "github.copilot.nextEditSuggestions.enabled": true,
-    "editor.autoIndentOnPaste": true,
-    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
-    "diffEditor.codeLens": true,
-    "javascript.preferences.importModuleSpecifierEnding": "minimal",
-    "cursor.composer.queueMessageDefaultBehavior": "queue",
-    "cursor.composer.usageSummaryDisplay": "always",
+    "json.schemaDownload.enable": true,
+    "javascript.updateImportsOnPaste.enabled": true,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
 }
