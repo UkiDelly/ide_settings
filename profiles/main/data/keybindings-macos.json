@@ -33,9 +33,5 @@
     "key": "alt+cmd+k",
     "command": "-claude-code.insertAtMentioned",
     "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+i",
-    "command": "composerMode.agent"
   }
 ]
