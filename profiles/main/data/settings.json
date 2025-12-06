@@ -109,11 +109,11 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "explicit",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "'Ligalex Mono for Powerline','IosevkaTerm Nerd Font','Cascadia Code NF','Victor Mono','D2Coding ligature','Jetbrains Mono',  'CaskaydiaCove Nerd Font Mono',  'FiraCode Nerd Font Mono', 'SF Mono',  'Rec Mono Casual', 'Monoplex KR Nerd', 'Rec Mono Casual', 'Sarasa Mono K', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Victor Mono'",
     // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20','calt', 'ss01'",
     "editor.fontLigatures": true,
     "editor.fontSize": 15,
-    "editor.fontWeight": "500",
+    "editor.fontWeight": "600",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -1612,8 +1612,8 @@
     "ruff.lint.ignore": [
         "D101"
     ],
-    "typescript.format.semicolons": "remove",
-    "javascript.format.semicolons": "remove",
+    "typescript.format.semicolons": "insert",
+    "javascript.format.semicolons": "insert",
     "github.gitProtocol": "ssh",
     "git.autoStash": true,
     "git.blame.statusBarItem.enabled": true,
@@ -1685,7 +1685,6 @@
     "cursorpyright.analysis.inlayHints.variableTypes": true,
     "cursorpyright.analysis.logLevel": "Warning",
     "cursorpyright.analysis.typeCheckingMode": "off",
-    "workbench.colorTheme": "Gruvbox Dark Medium",
     "json.schemaDownload.enable": true,
     "javascript.updateImportsOnPaste.enabled": true,
     "[dockercompose]": {
@@ -1709,4 +1708,7 @@
     "dbcode.color.applyToActiveEditorTabBackground": true,
     "dbcode.color.applyToStatusBarBackground": true,
     "dbcode.color.applyToCommandCenterBackground": true,
+    "diffEditor.codeLens": true,
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "geminicodeassist.project": "sunny-solution-8td9f",
 }

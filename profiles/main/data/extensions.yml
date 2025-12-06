@@ -23,10 +23,14 @@ enabled:
     uuid: 94d8b289-9db0-4c3c-b4f3-a3294c789678
   - id: anysphere.remote-ssh
     uuid: 73a45d83-83c7-4b22-bebf-c9130b0ab3f3
+  - id: arcticicestudio.nord-visual-studio-code
+    uuid: 6f35c257-7fd5-4bc2-9cd1-01976589c17a
   - id: Arjun.swagger-viewer
     uuid: cb9cc98b-7140-4f13-b993-1e26c4a7bd42
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
+  - id: cdfzo.mizu
+    uuid: 0c8ee4d8-bb07-49ab-83dd-a88a5cf8c08e
   - id: chamboug.js-auto-backticks
     uuid: 89454707-ebf2-4d40-b9b9-c3ed09083889
   - id: charliermarsh.ruff
@@ -125,16 +129,20 @@ enabled:
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: njpwerner.autodocstring
     uuid: 2d6fea35-f68e-461d-9b7b-5cd05be99451
+  - id: oven.bun-vscode
+    uuid: 2c58c6a8-c23c-4913-899e-17c90b15274e
   - id: PKief.material-icon-theme
     uuid: 5db78037-f674-459f-a236-db622c427c5b
   - id: Prisma.prisma
     uuid: 33ce9d6b-41cf-4972-a62b-386f7201981d
+  - id: qwtel.sqlite-viewer
+    uuid: 94fef082-6c2d-43ac-9540-6617b51a3a12
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
-  - id: Redis.redis-for-vscode
-    uuid: 87d0bce0-e306-4854-ac9a-823266e68e07
   - id: SpaceBox.monospace-idx-theme
     uuid: a28e22ca-09ce-4549-bb96-f088e02d8706
+  - id: svelte.svelte-vscode
+    uuid: c5463f77-75d9-4a25-8cc4-d8541a461285
   - id: tamasfe.even-better-toml
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
   - id: tomoki1207.pdf
@@ -143,5 +151,7 @@ enabled:
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
+  - id: zhuangtongfa.material-theme
+    uuid: 26a529c9-2654-4b95-a63f-02f6a52429e6
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
