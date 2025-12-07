@@ -1,41 +1,48 @@
-// 키 바인딩을 이 파일에 넣어서 기본값 재정의auto[]
 [
-  {
-    "key": "ctrl+alt+cmd+c",
-    "command": "codesnap.start"
-  },
-  {
-    "key": "shift+cmd+enter",
-    "command": "workbench.action.openQuickChat.copilot"
-  },
-  {
-    "key": "alt+cmd+j",
-    "command": "-liveshare.join",
-    "when": "liveshare:state != 'Joined' && liveshare:state != 'Shared'"
-  },
-  {
-    "key": "cmd+l",
-    "command": "composerMode.chat"
-  },
-  {
-    "key": "cmd+j",
-    "command": "composerMode.edit"
-  },
-  {
-    "key": "shift+enter",
-    "command": "workbench.action.terminal.sendSequence",
-    "args": {
-      "text": "\\\r\n"
+    {
+        "key": "ctrl+enter",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "terminalFocus",
+        "args": {
+            "text": "\\\r\n"
+        }
     },
-    "when": "terminalFocus"
-  },
-  {
-    "key": "alt+cmd+k",
-    "command": "-claude-code.insertAtMentioned",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+i",
-    "command": "composerMode.agent"
-  }
+    {
+        "key": "ctrl+alt+cmd+c",
+        "command": "codesnap.start"
+    },
+    {
+        "key": "shift+cmd+enter",
+        "command": "workbench.action.openQuickChat.copilot"
+    },
+    {
+        "key": "alt+cmd+j",
+        "command": "-liveshare.join",
+        "when": "liveshare:state != 'Joined' && liveshare:state != 'Shared'"
+    },
+    {
+        "key": "cmd+l",
+        "command": "composerMode.chat"
+    },
+    {
+        "key": "cmd+j",
+        "command": "composerMode.edit"
+    },
+    {
+        "key": "shift+enter",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\\\r\n"
+        },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+cmd+k",
+        "command": "-claude-code.insertAtMentioned",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+i",
+        "command": "composerMode.agent"
+    }
 ]
